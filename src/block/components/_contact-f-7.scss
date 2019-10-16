@@ -1,0 +1,17 @@
+.form-wrap {
+    input.hidden {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+    }
+}
+
+.wpcf7-mail-sent-ok {
+    border: none !important;
+    font-size: 18px !important;
+}
+
+span.wpcf7-not-valid-tip {
+    color: #e14d43 !important;
+}

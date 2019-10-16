@@ -1,0 +1,259 @@
+#pst-2 {
+  text-align: center;
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .para--subt {
+    color: $orange;
+    margin-top: 15px;
+  }
+
+  .title--big {
+    margin: 25px;
+  }
+}
+
+#pst-3 {
+  position: relative;
+  @include bg-grad();
+
+  .row {
+    justify-content: space-between;
+  }
+
+  .box {
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0 6px 19px rgba(0,0,0,0.1);
+    margin-bottom: 45px;
+    @include breakpoint(sm) {
+      width: 45%;
+    }
+    @include breakpoint(md) {
+      width: 32%;
+      margin-bottom: 0;
+    }
+
+    .title--sec {
+      font-size: 30px;
+      margin: 25px 0;
+    }
+  }
+
+  .divider {
+    height: 3px;
+    width: 40px;
+    background: $dark;
+    margin: 25px 0;
+  }
+}
+
+
+#pst-4 {
+  padding: 0 65px;
+  text-align: center;
+
+  .card-left,
+  .card-right {
+    width: 100%;
+    padding: 85px 45px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(1);
+    transition: transform .3s ease-in-out;
+    position: relative;
+
+    @include breakpoint(md) {
+      width: 50%;
+      padding: 120px 85px;
+    }
+
+    &:hover {
+      transform: scale(1.02);
+    }
+
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 20px solid #FFF;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      z-index: 1;
+    }
+
+    .title--big {
+      color: #fff;
+    }
+
+    .para {
+      margin: 25px 0 10px 0;
+    }
+  }
+
+  .card-left {
+    background-color: #f29919;
+
+    img {
+      width: 65%;
+    }
+  }
+
+  .card-right {
+    background-color: #cb2d2c;
+  }
+}
+
+#pst-5 {
+  padding: 85px 0;
+  text-align: center;
+
+  @include breakpoint(md) {
+    padding: 140px 0;
+    text-align: left;
+  }
+
+  .row {
+    justify-content: space-between;
+  }
+
+  .left-col,
+  .right-col {
+    width: 100%;
+    margin-bottom: 65px;
+
+    @include breakpoint(md) {
+      width: 48%;
+      margin-bottom: 0;
+    }
+  }
+
+  .left-col {
+    margin-bottom: 65px;
+
+    @include breakpoint(md) {
+      margin-bottom: 0;
+    }
+  }
+
+
+  .title--sec {
+    margin: 15px 0 25px 0;
+  }
+}
+
+
+#pst-6 {
+  background-color: #FAFAFA;
+
+  .title--big {
+    margin: 20px 0 35px 0;
+  }
+
+  .para {
+    max-width: 800px;
+    margin: 0 auto 45px auto;
+  }
+}
+
+
+#pst-other-products {
+  .row.header {
+    margin-bottom: 65px;
+
+    .title--icon {
+      color: $orange;
+      font-family: $font-heading;
+      margin-bottom: 15px;
+    }
+  } // row header
+
+  .row.cards {
+    max-width: 800px;
+    margin: 0 auto 100px auto;
+    justify-content: space-between;
+
+    .box {
+      width: 100%;
+      padding: 35px;
+
+      @include breakpoint(md) {
+        width: 48.5%;
+      }
+    }
+
+    .title--sec {
+      font-size: 22px;
+      font-weight: bold;
+      font-family: $font-heading;
+      margin-top: 25px;
+    }
+
+    .divider {
+      margin: 25px 0;
+    }
+
+    .btn {
+      margin-top: 35px;
+    }
+  } // row cards
+
+  .row.small-cards {
+    justify-content: space-between;
+
+    .box {
+      box-shadow: none;
+      border: 1px solid rgba($orange, 0.2);
+      padding: 23px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 35px;
+      color: $dark;
+
+      @include breakpoint(md) {
+        width: 32%;
+        margin-bottom: 0;
+      }
+
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .right {
+        text-align: right;
+        margin-left: 10px;
+      }
+    }
+
+    .para {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  } // row small cards
+
+  .row.cta {
+    margin-top: 145px;
+    justify-content: center;
+
+    .btn {
+      margin-top: 45px;
+      margin-bottom: 65px;
+    }
+  } // row cta
+}

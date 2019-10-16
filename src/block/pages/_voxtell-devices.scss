@@ -1,0 +1,24 @@
+.voxtell-devices {
+    .title--sec {
+        &.second {
+            font-family: $font-heading;
+            font-weight: 400;
+            font-size: 25px;
+            margin-bottom: -15px;
+        }
+
+        &.third {
+            margin-bottom: -15px;
+            margin-top: 25px;
+        }
+    }
+
+    .para.small {
+        font-size: 14px;
+        display: block;
+    }
+
+  #pc-header .title {
+    padding: 45px 0;
+  }
+}

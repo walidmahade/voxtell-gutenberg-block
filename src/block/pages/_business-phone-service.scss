@@ -1,0 +1,457 @@
+#bps-hero {
+    text-align: center;
+    @include breakpoint(md) {
+        text-align: left;
+    }
+
+    .left-col,
+    .right-col {
+        width: 100%;
+    }
+
+    .left-col {
+        padding-right: 0;
+        order: 2;
+        margin-top: 45px;
+        @include breakpoint(md) {
+            width: 60%;
+            padding-right: 45px;
+            order: 1;
+            margin-top: 0;
+        }
+    }
+
+    .right-col {
+        order: 1;
+        @include breakpoint(md) {
+            width: 40%;
+            order: 2;
+        }
+    }
+
+    .para {
+        margin: 35px 0;
+    }
+
+    .btn--outline-dark {
+        margin-left: 25px;
+        @include breakpoint(md) {
+            padding: 12px 24px;
+            font-size: 18px;
+        }
+    }
+}
+
+#bps-2 {
+    color: #fff;
+    @include bg-grad;
+    padding: 35px 20px;
+}
+
+#bps-hero-2 {
+    padding: 140px 0;
+    text-align: center;
+    @include breakpoint(md) {
+        text-align: left;
+    }
+
+    .row {
+        align-items: center;
+    }
+
+    .left-col,
+    .right-col {
+        width: 100%;
+
+        @include breakpoint(md) {
+            width: 50%;
+        }
+    }
+
+    .left-col {
+        padding-right: 0;
+        margin-bottom: 45px;
+
+        @include breakpoint(md) {
+            padding-right: 65px;
+            margin-bottom: 0;
+        }
+
+        .title--big {
+            color: $orange;
+            font-size: 45px;
+
+            br {
+                display: none;
+            }
+
+            @include breakpoint(md) {
+                font-size: 85px;
+                br {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .para {
+        margin: 35px 0;
+    }
+
+    .btn--outline-dark {
+        padding: 12px 24px;
+        font-size: 18px;
+    }
+}
+
+#bps-3 {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 140px 0;
+
+    .row {
+        justify-content: center;
+    }
+
+    .para--subt {
+        color: $orange !important;
+        text-align: center;
+    }
+
+    .title--big {
+        font-size: 45px;
+        margin: 10px 0 45px 0;
+
+        @include breakpoint(md) {
+            font-size: 85px;
+        }
+
+        .orange {
+            color: $orange !important;
+        }
+    }
+}
+
+#bps-4 {
+    text-align: center;
+    padding: 140px 0;
+
+    @include breakpoint(md) {
+        text-align: left;
+    }
+
+    .container {
+        max-width: 1170px;
+    }
+
+    .row {
+        justify-content: space-between;
+    }
+
+    .left-col,
+    .right-col {
+        width: 100%;
+
+        @include breakpoint(md) {
+            width: 50%;
+        }
+    }
+
+    .left-col {
+        margin-bottom: 45px;
+        @include breakpoint(md) {
+            width: 40%;
+            margin-bottom: 0;
+        }
+    }
+
+    .right-col {
+        @include breakpoint(md) {
+            width: 60%;
+        }
+    }
+
+    .para--subt {
+        color: $orange !important;
+    }
+
+    .title--big {
+        font-size: 45px;
+        margin: 10px 0 45px 0;
+
+        @include breakpoint(md) {
+            font-size: 85px;
+        }
+
+        .orange {
+            color: $orange !important;
+        }
+    }
+
+    .btn {
+        margin-top: 35px;
+    }
+}
+
+#bps-5 {
+    background-color: #fafafa;
+    padding: 85px 0;
+    text-align: center;
+
+    @include breakpoint(md) {
+        padding: 280px 0 140px 0;
+        text-align: left;
+    }
+
+    .left-col,
+    .right-col {
+        width: 100%;
+    }
+
+    .title--big {
+        font-size: 45px;
+        margin: 25px 0 45px 0;
+
+        @include breakpoint(md) {
+            font-size: 85px;
+            margin: 10px 0 45px 0;
+        }
+
+        br {
+            display: none;
+            @include breakpoint(md) {
+                display: block;
+            }
+        }
+
+        .orange {
+            color: $orange !important;
+        }
+    }
+
+    .left-col {
+        position: relative;
+
+        @include breakpoint(md) {
+            width: 60%;
+        }
+
+        img {
+            margin-bottom: 25px;
+            @include breakpoint(md) {
+                position: absolute;
+                top: -140px;
+                right: 40px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .right-col {
+        @include breakpoint(md) {
+            width: 40%;
+        }
+
+        .para--subt {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+#bps-app {
+    background-image: url("/wp-content/themes/voxtell-custom/img/new-pages/app-downloads-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 140px 0 85px 0;
+
+    .row {
+        justify-content: center;
+    }
+
+    .title--big {
+        font-size: 45px;
+        margin: 25px 0 45px 0;
+        color: #fff;
+
+        @include breakpoint(md) {
+            font-size: 85px;
+            margin: 10px 0 45px 0;
+        }
+    }
+}
+
+#bps-app-btns {
+    text-align: center;
+
+    .row {
+        justify-content: center;
+    }
+
+    .download-btn {
+        color: $dark;
+        margin: 0 15px;
+        font-family: $font-heading;
+        width: 65%;
+        margin-bottom: 35px;
+
+        @include breakpoint(sm) {
+            width: 45%;
+        }
+
+        @include breakpoint(md) {
+            width: 19.5%;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 13px !important;
+            font-weight: 600 !important;
+        }
+    }
+}
+
+#bps-6 {
+    text-align: center;
+
+    .row {
+        justify-content: center;
+
+        .btn {
+            margin-top: 30px;
+        }
+    }
+
+    .row.top {
+        .para {
+            font-size: 30px;
+            font-family: $font-heading;
+        }
+    }
+
+    .row.title {
+        margin: 100px 0;
+    }
+
+    .features {
+        justify-content: space-between;
+        align-items: stretch;
+        padding-bottom: 85px;
+
+        &__item {
+            width: 100%;
+            margin-bottom: 45px;
+
+            @include breakpoint(md) {
+                width: 45%;
+            }
+
+            .title--sec {
+                margin: 15px 0;
+            } // title--sec
+        } // item
+    } // features
+
+    .row.bottom {
+        border-top: 1px solid rgba(#000, 0.1);
+        padding-top: 85px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        @include breakpoint(md) {
+            justify-content: space-between;
+            width: 100%;
+            text-align: left;
+        }
+
+        .title--sec {
+            width: 100%;
+            @include breakpoint(md) {
+                width: 60%;
+            }
+        }
+
+        .cta {
+            width: 100%;
+            margin-top: 35px;
+
+            @include breakpoint(md) {
+                width: 30%;
+                margin-top: 0;
+            }
+
+            .btn {
+                margin-top: 0;
+            }
+        } // cta
+    } // bottom
+} // section
+
+#bps-posts {
+    background-color: #fafafa;
+    padding: 140px 0;
+
+    .container {
+        max-width: 1170px;
+    }
+
+    .orange {
+        color: $orange;
+    }
+
+    .posts-cards {
+        justify-content: space-between;
+        margin-top: 65px;
+
+        img {
+            display: block;
+            margin: 0 auto 40px auto;
+        }
+
+        .box {
+            box-shadow: none;
+            border: 1px solid rgba($orange, 0.2);
+            color: $dark;
+          padding-bottom: 10px;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+            margin-bottom: 35px;
+
+            @include breakpoint(md) {
+                width: 31.5%;
+                margin-bottom: 0;
+            }
+
+            &:hover {
+                box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        .category {
+            color: $orange;
+            font-family: $font-heading;
+            margin: 25px 0;
+            display: block;
+          text-align: center;
+          padding: 0 23px;
+        }
+
+        .title--sec {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: 500;
+          padding: 0 15px;
+          display: block;
+          color: $dark;
+        }
+
+        .para {
+            //line-height: 1.4;
+            font-size: 18px;
+          padding: 0 15px;
+        }
+    }
+}

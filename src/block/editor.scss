@@ -1,0 +1,106 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+// =================== block editing page styles
+.wp-block {
+    max-width: 1200px;
+}
+@media (min-width: 600px) {
+    .block-editor-block-list__layout {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.btn-editor {
+    border: 1px solid #a7a9ac;
+    padding: 8px;
+    border-radius: 5px;
+    line-height: 1;
+    margin-top: 15px;
+  max-height: 35px;
+}
+
+.block-editor-block-inspector__card-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.block-editor-block-inspector__card .block-editor-block-icon {
+    display: none;
+}
+
+.editor-background-preview {
+    max-width: 100%;
+    margin-top: 10px;
+    display: block;
+}
+
+.editor-url-input.block-editor-url-input {
+    input {
+        border: 1px solid #a7a9ac !important;
+        border-radius: 5px;
+        margin-top: 5px;
+
+        &:focus {
+            border-color: transparent !important;
+        }
+    }
+}
+
+// sections z-index on backend
+[data-type="cgb/about-us"] {
+    z-index: 5;
+}
+
+[data-type="cgb/about-us-2"] {
+    z-index: 1;
+}
+
+[data-type="cgb/happy-clients"] {
+    z-index: 2;
+}
+
+[data-type="cgb/careers-faq"] {
+    z-index: 5;
+}
+
+[data-type="cgb/faq"] {
+    z-index: 5;
+}
+
+[data-type="cgb/team-member"] {
+  .ib__item {
+    width: 100%;
+  }
+}
+
+#whyv-team {
+  .row.ib > div {
+    width: 33%;
+  }
+}
+
+// ========================================== block editing page styles end
+// ------ editor-rich-text.block-editor-rich-text
+.edit-post-sidebar .editor-rich-text.block-editor-rich-text {
+    padding: 5px;
+    border: 1px solid #eeeeee;
+    display: block;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+// ------ meta boxes positioning problem
+.block-editor-writing-flow {
+    height: auto !important;
+}
+
+.list-checkmark {
+  list-style: none !important;
+}

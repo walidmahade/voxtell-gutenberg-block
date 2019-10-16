@@ -1,0 +1,85 @@
+// sections
+.section {
+    padding: 65px 0;
+
+    &--last {
+        padding: 65px 0 150px 0;
+
+        // responsive styles
+        @include breakpoint(md) {
+            padding: 85px 0 150px 0;
+        }
+    }
+
+    // responsive styles
+    @include breakpoint(md) {
+        padding: 85px 0;
+    }
+
+    // section header
+    &__header {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+
+        .para {
+            margin: 25px 0 65px 0;
+        }
+    }
+}
+// utility
+.light {
+    color: #fff;
+}
+
+// ---------- new pages
+.dark {
+    color: $dark !important;
+}
+
+// .divider {
+//     height: 3px;
+//     width: 40px;
+//     background-color: $dark;
+// }
+// ---------  new end
+
+.left,
+.text-left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.hidden-sm {
+    display: none;
+}
+
+// margins
+.mlra {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mla {
+    margin-left: auto;
+}
+
+.mra {
+    margin-right: auto;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
+}

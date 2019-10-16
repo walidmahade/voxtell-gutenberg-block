@@ -1,0 +1,591 @@
+body,
+html {
+  scroll-behavior: smooth;
+}
+#np-hero {
+  padding-bottom: 0;
+
+  .title--big {
+    line-height: 1.4;
+  }
+}
+
+#pricing-tables {
+  .tab-nav {
+    text-align: center;
+    margin-bottom: 0;
+
+    @include breakpoint(sm) {
+      margin-bottom: 65px;
+    }
+  }
+
+  .tab-btn {
+    border: 1px solid rgba($orange, .2);
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    font-family: $font-heading;
+    font-weight: 500;
+    color: $dark;
+    letter-spacing: 1px;
+    background-color: transparent;
+    transition: background-color .3s ease-in-out;
+
+    @include breakpoint(md) {
+      padding: 14px 25px;
+      margin: 0 15px;
+    }
+
+    &.active,
+    &:hover {
+      @include bg-grad;
+      border-color: #fff;
+      color: #fff;
+    }
+  }
+
+  .tab-content-item {
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+
+    &.active {
+      opacity: 1;
+      position: relative;
+      visibility: visible;
+    }
+  }
+
+  .price-cards-wrap {
+    @include d(f);
+    @include jc(sb);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  .price-card {
+    text-align: center;
+    @include br;
+    width: 100%;
+    position: relative;
+    margin-bottom: 65px;
+    box-shadow: 0 0 0 transparent;
+    transition: box-shadow .3s ease-in-out;
+
+    @include breakpoint(sm) {
+      width: 45%;
+    }
+
+    @include breakpoint(md) {
+      width: 30%;
+      margin-bottom: 65px;
+    }
+
+    &:hover {
+      @include bs;
+    }
+
+    &:first-child,
+    &:last-child {
+      margin-top: 35px;
+    }
+
+    // extra spacing for middle card only
+    &:nth-child(2) {
+      .header {
+        padding: 55px 23px;
+      }
+      .footer {
+        padding-bottom: 45px;
+      }
+    }
+
+    .header {
+      @include bg-grad;
+      padding: 23px;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .title--sub {
+      font-size: 29px;
+      font-weight: bold;
+    }
+
+    .showboat {
+      border: 1px solid #fff;
+      border-radius: 4px;
+      display: inline-block;
+      padding: 2px 15px;
+      margin: 25px 0;
+    }
+
+    .price {
+      &--monthly {
+        opacity: 1;
+        visibility: visible;
+        position: static;
+      }
+      &--yearly {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+      }
+
+      .top-text {
+        font-size: 18px;
+        font-family: $font-heading;
+      }
+
+      .bottom-text {
+        font-size: 15px;
+      }
+
+      .num {
+        font-size: 65px;
+        font-weight: bold;
+        font-family: $font-heading;
+        margin: 15px 0;
+      }
+      sub {
+        font-size: 20px;
+        //margin-top: -40px;
+        bottom: 30px !important;
+      }
+    }
+
+    .footer {
+      border-radius: 0 0 5px 5px;
+      border: 1px solid rgba($orange, .3);
+      padding: 23px;
+
+      .cta {
+        margin-top: 25px;
+      }
+
+      .para.para--subt {
+        font-size: 14px;
+        opacity: .6;
+      }
+
+      .title--sub {
+        font-size: 18px;
+        margin: 15px 0;
+        font-weight: 700;
+        color: rgba($dark, .75);
+      }
+
+      .para-item {
+        font-size: 18px;
+      }
+
+      .para-item-divider {
+        background-color: rgba($dark, .2);
+        width: 60px;
+        height: 1px;
+        text-align: center;
+        margin: 25px auto;
+      }
+
+      .compare {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        font-family: $font-heading;
+        font-weight: 600;
+        color: $orange;
+        margin-top: 20px;
+        cursor: pointer;
+
+        span {
+          display: block;
+          font-size: 15px;
+        }
+
+        img {
+          margin-top: 7px;
+          width: 20px;
+        }
+      }
+
+      .btn {
+        display: block;
+        padding: 10px 15px;
+      }
+    } // footer end
+
+
+    // badge start
+    .most-popular {
+      display: block;
+      position: absolute;
+      padding: 6px;
+      top: -20px;
+      left: 50%;
+      width: 70%;
+      margin-left: -35%;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      background: $dark;
+      border-radius: 20px;
+      min-height: 30px;
+      font-family: $font-heading;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 28px;
+        z-index: 0;
+        left: 45%;
+        width: 0px;
+        height: 0px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid $dark;
+      }
+    } // badge end
+  }
+
+
+  .detail-price {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .price-table-trigger {
+    cursor: pointer;
+    margin-left: 20px;
+
+    img {
+      height: 18px !important;
+      width: 18px !important;
+    }
+  }
+
+  .tt-ct-pricing {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 360px;
+    top: 105%;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 1;
+    background-color: #FFF;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+    overflow: hidden;
+    font-size: 11px;
+    font-family: $font-heading;
+    color: $dark;
+    @include br();
+    transition: all .3s ease-in-out;
+    will-change: visibility, opacity, top;
+
+    &.show {
+      visibility: visible;
+      opacity: 1;
+      top: 80%;
+    }
+
+    .priceTop {
+      background-color: #FAFAFA;
+      color: #232649;
+      text-align: center;
+      padding: 15px 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .priceBottom {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .columnFirst,
+    .columnSecond,
+    .columnThird,
+    .columnFourth {
+      display: inline-block;
+      width: 25%;
+      vertical-align: top;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .priceBottom .columnFirst,
+    .priceBottom .columnSecond,
+    .priceBottom .columnThird,
+    .priceBottom .columnFourth {
+      font-size: 13px !important;
+      color: $orange !important;
+    }
+
+    .priceBottom .rowFirst,
+    .priceBottom .rowSecond,
+    .priceBottom .rowThird {
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    .priceBottom .rowFirst,
+    .priceBottom .rowSecond,
+    .priceBottom .rowThird,
+    .priceBottom .rowFourth {
+      padding: 10px 0 !important;
+    }
+
+    .priceBottom span > strong,
+    .priceTop span > strong {
+      display: block !important;
+    }
+
+    .monthDetails {
+      font-size: 8px;
+    }
+
+  } // tt pricing
+}
+
+
+#compare-acc {
+  padding-top: 0;
+
+  .container {
+    max-width: 1170px;
+  }
+
+  .header {
+    margin-bottom: 65px;
+    .title--sec {
+      margin-bottom: 15px;
+    }
+  }
+
+  .row.cta {
+    justify-content: center;
+    margin-top: 65px;
+  }
+}
+
+.compare-acc-item {
+  width: 100%;
+  @include d(f);
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
+
+  @include breakpoint(sm) {
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  &.active {
+    opacity: 1;
+    position: relative;
+    visibility: visible;
+  }
+
+  .acc-col {
+    width: 100%;
+    margin-bottom: 45px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @include breakpoint(sm) {
+      width: 46%;
+    }
+    @include breakpoint(md) {
+      width: 31%;
+      margin-bottom: 0;
+    }
+
+    .title--alt {
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ebebeb;
+    }
+  } // acc-col
+} // compare-acc-item
+
+/*--------------------------------------------------
+  accordion start
+----------------------------------------------------*/
+.acc-mw {
+  &__head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    @include breakpoint(sm) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-family: $font-heading;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  &__body {
+    font-size: 16px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 15px;
+    margin: 10px 0 15px 0;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    will-change: opacity, height, width, visibility, position;
+
+    ul {
+      list-style: circle;
+      margin-left: 35px;
+    }
+  }
+
+  &__item {
+    margin-bottom: 10px;
+
+    &.open {
+      .acc-mw__body {
+        height: auto;
+        width: auto;
+        opacity: 1;
+        visibility: visible;
+        position: static;
+        transition: all .3s ease-in-out;
+      }
+    } // item open
+  }
+
+}
+// --------------------  END accordion
+#np-all-suite {
+  .container {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding: 85px 0;
+  }
+  .header {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+  .features {
+    justify-content: center;
+
+    @include breakpoint(sm) {
+      justify-content: space-between;
+    }
+
+    .col {
+      width: 100%;
+      margin-bottom: 45px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      @include breakpoint(sm) {
+        width: 46%;
+      }
+
+      @include breakpoint(md) {
+        width: auto;
+        margin-bottom: 0;
+      }
+
+      .title--alt {
+        margin-bottom: 15px;
+      }
+    } // col
+  } // features
+
+  .sf__item {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    position: relative;
+
+    .para {
+      line-height: 1.4;
+    }
+
+    .title {
+      margin-right: 10px;
+      opacity: .8;
+      font-size: 18px;
+      font-family: $font-heading;
+    }
+  }
+}
+
+.tooltip-trigger{
+  cursor: pointer;
+}
+
+.tooltip-content {
+  position: absolute;
+  background: $dark;
+  padding: 20px;
+  color: #fff;
+  width: 300px;
+  @include br;
+  top: 80px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99;
+  will-change: opacity, visibility, top;
+  transition: all .3s ease-in-out;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    top: 40px;
+  }
+
+  .tt-txt {
+    padding-left: 10px;
+  }
+}
+
+
+#pricing-faq-header-2 {
+  margin-top: 65px;
+
+  .row {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cta {
+    margin-top: 45px;
+  }
+}
+
+// ---------------- overrides
+.new-pricing-page {
+  #careers-faq {
+    margin: 0 !important;
+  }
+}

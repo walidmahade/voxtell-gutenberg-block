@@ -1,0 +1,413 @@
+// ----------------------------- site header
+#site-header {
+    padding: 15px 0;
+    // background: #ebebeb;
+
+    // responsive styles
+    @include breakpoint(md) {
+        padding: 10px;
+    }
+
+    .container {
+        max-width: 1140px;
+    }
+
+    .row {
+        @include d(f);
+        @include jc(sb);
+        @include ai(c);
+        @include fw(wrap);
+    }
+
+    .brand {
+        max-width: 150px;
+
+        // responsive styles
+        @include breakpoint(md) {
+            max-width: 235px;
+        }
+    }
+}
+
+// ---------------------------- main menu
+#main-menu {
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    // background-color: pink;
+    font-family: $font-heading;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(#000, 0.08);
+    z-index: 99;
+    transition: opacity 0.3s ease-in-out;
+    will-change: opacity, visibility;
+
+    &.show {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    // responsive styles
+    @include breakpoint-fluid(1024px) {
+        position: static;
+        top: 0;
+        visibility: visible;
+        opacity: 1;
+        width: auto;
+        border: none;
+        will-change: none;
+        // background: pink;
+        flex-grow: 1;
+    }
+}
+
+.main-menu-wrap {
+    width: 100%;
+    display: block;
+
+    // responsive styles
+    @include breakpoint-fluid(1024px) {
+        @include d(f);
+        @include jc(fe);
+        @include ai(c);
+        @include fw(wrap);
+    }
+}
+
+.menu-item {
+    width: 100%;
+    display: block;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+
+    // responsive styles
+    @include breakpoint-fluid(1024px) {
+        width: auto;
+        display: inline-block;
+        font-weight: 400;
+    }
+
+    a {
+        display: inline-block;
+        padding: 10px 5px 10px 15px;
+        color: $text;
+
+        &:hover {
+            color: #b7b7b7;
+        }
+
+        // responsive styles
+        @include breakpoint-fluid(1024px) {
+            padding: 0 15px;
+        }
+    }
+
+    &--active {
+        & > a {
+            color: #b7b7b7;
+        }
+    }
+
+    .dd-indicator {
+        padding-top: 6px;
+        transition: transform 0.3s ease-in-out;
+        will-change: transform;
+        width: 20px;
+
+        svg {
+            height: 20px;
+        }
+
+        // responsive styles
+        @include breakpoint-fluid(1024px) {
+            //position: absolute;
+            //right: -2px;
+            //top: 0;
+            // transform: translateY(-50%);
+            //padding: 0;
+            margin-left: -15px;
+        }
+    }
+
+    &--has-dropdown {
+        @include d(f);
+        @include jc(fs);
+        @include ac(c);
+        @include ai(c);
+        @include fw(wrap);
+
+        // responsive styles
+        @include breakpoint-fluid(1024px) {
+            width: auto;
+            padding-right: 5px;
+            //@include d(ib);
+        }
+    }
+
+    .dd-menu {
+        background-color: #fff;
+        padding: 10px 20px;
+        width: 100%;
+        min-width: 250px;
+        position: absolute;
+        top: 290%;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9;
+        @include bs(0, 6px, 14px, 1px, rgba(#000, 0.08));
+        @include br;
+        transition: all 0.3s ease-in-out;
+        will-change: opacity, visibility, top;
+
+        // responsive styles
+        @include breakpoint-fluid(1024px) {
+            width: auto;
+            max-width: 350px;
+        }
+
+        &--mega {
+            left: 0;
+            // delete these
+            //opacity: 1;
+            //visibility: visible;
+
+            @include breakpoint-fluid(1024px) {
+                min-width: 60px;
+                max-width: 94vw;
+                width: 1140px;
+            }
+
+            @include breakpoint-fluid(1140px) {
+                max-width: 98vw;
+            }
+
+            &.solutions {
+              left: 0;
+              @include breakpoint-fluid(1024px) {
+                left: -429px;
+              }
+            }
+
+            &.what-we-do {
+                // delete these
+                //opacity: 1;
+                //visibility: visible;
+
+                @include breakpoint-fluid(1024px) {
+                    left: -200px !important;
+                    min-width: 60px;
+                    max-width: 94vw;
+                    width: 600px;
+                }
+            }
+        }
+
+        a {
+            padding: 6px 0;
+        }
+    }
+
+    &--has-dropdown.show {
+        .dd-menu {
+            top: 100%;
+            opacity: 1;
+            visibility: visible;
+
+            // responsive styles
+            @include breakpoint-fluid(1024px) {
+                top: 40px;
+            }
+        }
+
+        // indicator rotate
+        .dd-indicator {
+            transform: rotate(-180deg);
+
+            // responsive styles
+            @include breakpoint-fluid(1024px) {
+                transform: rotate(0);
+            }
+        }
+    }
+}
+
+// ---------------------------- menu mobile trigger
+#menu-trigger-mobile {
+    .hamburger {
+        @include bg-grad;
+        @include br(7px);
+        @include d(f);
+        @include jc(c);
+        @include ai(c);
+        padding: 10px 7.5px;
+    }
+    // responsive styles
+    @include breakpoint-fluid(1024px) {
+        display: none;
+    }
+}
+
+// ---------------------------- header cta
+#site-header .cta {
+    display: none;
+
+    // responsive styles
+    @include breakpoint-fluid(1100px) {
+        display: block;
+        padding-left: 10px;
+    }
+
+    @include breakpoint(md) {
+        .btn {
+            padding: 10px 23px;
+        }
+    }
+}
+
+// ---------------------------- mega menu inner
+.dd-menu--mega {
+    @include d(f);
+    @include jc(sb);
+    @include ac(c);
+    @include ai(stretch);
+    @include fw;
+    padding: 0 !important;
+    font-family: $font-family;
+
+    .heading {
+        width: 25%;
+        padding: 30px;
+        border-right: 1px solid #eeeeee;
+        @include d(f);
+        @include jc(c);
+        @include ac(fs);
+        @include ai(fs);
+        justify-items: center;
+        flex-direction: column;
+
+        .title--sec {
+            font-size: 30px;
+        }
+
+        .para {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    }
+
+    .icons {
+        width: 75%;
+        @include d(f);
+        @include jc(fs);
+        @include ai(c);
+        @include ac(c);
+        @include fw;
+        padding: 30px;
+
+        &__item {
+            width: 33%;
+            @include d(f);
+            @include fw;
+            margin: 25px 0;
+        }
+
+        .ii_icon {
+            margin-right: 10px;
+        }
+
+        .title--sec {
+            font-size: 20px;
+            font-family: $font-family;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 15px;
+            opacity: 0.6;
+        }
+    }
+}
+
+// responsive styles - megamenu
+@media screen and (max-width: 1023px) {
+    .dd-menu--mega {
+        padding: 10px 20px !important;
+
+        .ii_icon,
+        .heading {
+            display: none !important;
+        }
+
+        .icons {
+            padding: 0;
+        }
+
+        .icons__item {
+            width: 100%;
+            @include d(f);
+            @include fw;
+            margin: 0;
+        }
+
+        .title--sec {
+            font-size: 16px !important;
+            padding: 6px 0;
+            font-weight: 400;
+            font-family: $font-heading;
+        }
+
+        p {
+            display: none;
+        }
+    }
+
+    // what we do
+    .what-we-do {
+        .ii_icon {
+            display: block !important;
+
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .what-we-do {
+        .ii_icon {
+            width: 100%;
+            @include d(f);
+            @include ai(c);
+            @include fw;
+
+            img {
+                width: 20px;
+                margin-right: 10px;
+            }
+        }
+
+        .ii__info {
+            margin-top: 7px;
+        }
+
+        .heading {
+            width: 45%;
+        }
+
+        .icons {
+            width: 55%;
+
+            &__item {
+                width: 100%;
+            }
+        }
+    }
+}

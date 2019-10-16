@@ -1,0 +1,222 @@
+#pbx-trunk-hro {
+    background-image: url("/wp-content/themes/voxtell-custom/img/post-images/bg-pbx-sip-trunking.jpg");
+}
+
+#pbx-under-hero {
+    .title--alt {
+        margin-bottom: 15px;
+    }
+
+    .row.cta {
+        margin-top: 45px;
+        justify-content: center;
+    }
+
+    .left-col {
+        width: 100%;
+        text-align: center;
+
+        // responsive styles
+        @include breakpoint(md) {
+            text-align: left;
+            width: 60%;
+        }
+    }
+
+    .right-col {
+        width: 100%;
+
+        // responsive styles
+        @include breakpoint(md) {
+            width: 40%;
+        }
+    }
+}
+
+.vbh-box {
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #d13f29;
+    background-image: url(/wp-content/themes/voxtell-custom/img/business-phone-service-hero-box-dots.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+
+    // responsive styles
+    @include breakpoint(md) {
+        max-width: 360px;
+        margin-left: auto;
+        margin-top: -150px;
+    }
+
+    .title {
+        margin-bottom: 25px;
+    }
+}
+
+// -------------------------------------------------------------
+// -------------------------------------------------------------
+#pbx-price-plans {
+    @include bg-grad;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 150px;
+    position: relative;
+
+    // responsive styles
+    @include breakpoint(md) {
+        background-image: url(/wp-content/themes/voxtell-custom/img/what-we-do-contact-bg.jpg);
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    .title--sec {
+        color: #fff;
+    }
+}
+
+.pbx-price-boxes-row {
+    position: relative;
+    padding-top: 65px;
+    width: 100%;
+
+    .vb-price-box {
+        position: relative;
+        margin-top: 45px;
+        width: 100%;
+        padding: 0 15px;
+
+        // responsive styles
+        @include breakpoint(md) {
+            width: 50%;
+        }
+    }
+
+    .badge {
+        display: block;
+        margin-bottom: -5px;
+        padding: 15px 0 20px 0;
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        z-index: 1;
+        font-family: $font-family;
+        text-transform: uppercase;
+        font-size: 22px;
+        letter-spacing: 1.1px;
+    }
+
+    .box {
+        position: relative;
+        width: 100%;
+        padding: 45px 30px;
+        z-index: 9;
+
+        // responsive styles
+        @include breakpoint(md) {
+            width: 100%;
+        }
+    }
+
+    .title--alt {
+        font-weight: 400;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .list-checkmark {
+        font-size: 20px;
+        line-height: 30px;
+
+        li:before {
+            content: "";
+            display: inline-block;
+            margin-right: 10px;
+            height: 15px;
+            width: 20px;
+            background-image: url("/wp-content/themes/voxtell-custom/img/check-mark.svg");
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    }
+
+    .cta {
+        margin-top: 20px;
+        @include d(f);
+        @include ac(c);
+        @include ai(c);
+        @include fw;
+        @include jc(c);
+
+        // responsive styles
+        @include breakpoint(md) {
+            @include jc(sb);
+        }
+
+        .price {
+            position: relative;
+            width: 100%;
+            margin-bottom: 15px;
+
+            @include d(f);
+            @include ac(c);
+            @include ai(c);
+            @include jc(c);
+
+            // responsive styles
+            @include breakpoint(md) {
+                width: 55%;
+                margin-bottom: 0;
+                @include jc(fs);
+            }
+
+            .num {
+                font-family: $font-heading;
+                font-size: 20px;
+                font-weight: 600;
+
+                // responsive styles
+                @include breakpoint(md) {
+                    font-size: 32px;
+                }
+
+                &:after {
+                    content: none;
+                } // :: after
+            } // num
+
+            .info {
+                font-size: 12px;
+                margin-left: 15px;
+            }
+        } // price
+    } // cta
+}
+
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+#pbx-supp-icons {
+    .row.icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 65px auto 0 auto;
+
+        .icon__item {
+            width: 33.33%;
+            padding: 15px;
+
+            @include breakpoint(md) {
+                width: 23.5%;
+            }
+        }
+    }
+}

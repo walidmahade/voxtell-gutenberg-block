@@ -1,0 +1,346 @@
+/*------------------------
+  blog page css
+------------------------*/
+#page-title.blog-page {
+  .title--big {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+
+    @include breakpoint(md) {
+      width: auto;
+      margin-bottom: 0;
+    }
+  }
+
+  .right {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+
+    @include breakpoint(md) {
+      justify-content: flex-end;
+      flex: 1;
+      width: auto;
+    }
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  #search_posts,
+  #post_category {
+    max-width: 273px;
+    width: 100%;
+    height: 45px;
+    min-height: 45px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    border-radius: 0;
+    line-height: 1;
+    padding: 0 10px;
+    font-family: $font-heading;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 17px;
+
+    &::placeholder {
+      color: #000;
+    }
+  }
+
+
+  label {
+    position: relative;
+    display: inline-block;
+  }
+
+  #search_posts {
+    padding-right: 40px;
+    &_icon {
+      position: absolute;
+      right: 17px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  }
+}
+
+/*=====================================
+Latest Post Css
+=====================================*/
+.latest_post {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: $font-family;
+
+    .post-thumbnail,
+    .post-content {
+      width: 100%;
+      //flex: 1 0;
+      //padding: 80px 120px 80px 80px;
+
+      @include breakpoint(md) {
+        width: 50%;
+      }
+    }
+
+    .post-thumbnail {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      min-height: 400px;
+    }
+
+    .post-content {
+      background-image: linear-gradient(to right, #fcb614 0%, #cb2d2c 100%);
+      font-family: $font-family;
+      padding: 45px 23px;
+      text-align: center;
+
+      @include breakpoint(md) {
+        text-align: left;
+        padding: 130px 120px 130px 70px;
+      }
+    }
+
+    .post-excerpt,
+    .post-title {
+        font-family: $font-family;
+        display: block;
+    }
+
+    .post-excerpt,
+    .post-publish-date {
+        font-size: 22px;
+        font-family: $font-family;
+        font-weight: 400;
+    }
+
+    .post-excerpt {
+        margin: 35px 0;
+        line-height: 1.2;
+    }
+
+    .post-title a,
+    .mw-btn {
+        color: #ffffff;
+    }
+
+    .post-title {
+        margin: 15px 0;
+
+        a {
+          font-size: 34px;
+
+          @include breakpoint(sm) {
+            font-size: 26px;
+          }
+
+          @include breakpoint(md) {
+            font-size: 40px;
+          }
+        }
+    }
+
+    .post-publish-date {
+        font-family: $font-heading;
+    }
+}
+
+/* ============================================
+blog grid css
+=============================================*/
+//.alm-reveal {
+//    display: flex;
+//    justify-content: space-between;
+//    flex-wrap: wrap;
+//}
+
+#blog-posts-wrapper {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.mw-post-grid-item {
+  width: 47%;
+  text-align: center;
+  margin-bottom: 50px;
+
+  @include breakpoint(md) {
+    width: 30%;
+  }
+
+  a {
+    border-radius: 5px;
+  }
+
+     img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .title--sec {
+      font-size: 22px;
+      color: #000;
+      margin: 20px 0 30px 0;
+      display: block;
+      line-height: 1.2;
+
+      @include breakpoint(md) {
+          font-size: 28px;
+      }
+    }
+
+    .entry-meta {
+      font-family: $font-heading;
+      margin-top: 15px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+
+      .author {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+
+        img {
+          height: 30px;
+          width: 30px;
+          border-radius: 50%;
+          border: 1px solid #ebebeb;
+          margin-right: 10px;
+        }
+      }
+
+      .name,
+      .date {
+        font-size: 18px;
+        font-weight: 500;
+        opacity: .8;
+        font-family: $font-heading;
+        letter-spacing: 1.5px;
+      }
+
+      .divider {
+        padding: 0 10px;
+        opacity: .1;
+      }
+    }
+
+    .btn {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 12px 20px;
+    }
+}
+
+/*--------------------
+load more button
+---------------------*/
+#load-more-post {
+  margin: 10px auto;
+  color: #000;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+
+  img {
+    margin-top: 10px;
+    transition: transform .3s ease-in-out;
+    will-change: transform;
+  }
+
+  &:hover {
+    img {
+      transform: translateY(20px);
+    }
+  }
+}
+// ----------- old
+//.alm-btn-wrap {
+//    text-align: center;
+//}
+//
+//.alm-load-more-btn {
+//    border: 0;
+//    color: #000;
+//    font-size: 25px;
+//}
+//
+//.alm-load-more-btn.more:after {
+//    content: "\2193";
+//    display: block;
+//}
+//
+//.alm-load-more-btn.loading {
+//    content: none;
+//}
+//
+//.alm-load-more-btn:hover {
+//    background-color: transparent !important;
+//    color: #000;
+//    cursor: pointer;
+//}
+//
+///* // disabled state */
+//.alm-load-more-btn:disabled {
+//    opacity: 0;
+//}
+//.alm-load-more-btn.loading {
+//    background-color: transparent !important;
+//    color: #000 !important;
+//}
+//
+//.alm-load-more-btn img {
+//    display: block;
+//    margin: 10px auto 0 auto;
+//    transform: translateY(0);
+//    transition: 0.3s ease-in-out;
+//}
+//
+//.alm-load-more-btn:hover img {
+//    transform: translateY(10px);
+//}
+//
+///* responsive styles */
+//@media screen and (max-width: 991px) {
+//    .mw-post-grid-item {
+//        width: 42%;
+//        text-align: center;
+//        margin-bottom: 50px;
+//    }
+//    .alm-reveal {
+//        justify-content: space-around;
+//    }
+//}
+//
+//@media screen and (max-width: 600px) {
+//    .mw-post-grid-item {
+//        width: 100%;
+//        text-align: center;
+//        margin-bottom: 50px;
+//
+//        .entry-meta {
+//            font-size: 17px;
+//        }
+//    }
+//}
