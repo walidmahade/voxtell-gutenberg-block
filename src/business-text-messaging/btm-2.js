@@ -2,11 +2,11 @@ const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
 const { RichText, MediaUpload, URLInput } = wp.editor;
 
-registerBlockType("cgb/btm-hero", {
-    title: __( "Business Test Messaging Hero" ),
+registerBlockType("cgb/btm-2", {
+    title: __( "Business Test Messaging 2" ),
     icon: "edit",
     category: "business-text-messaging",
-    keywords: [ __( "Business" ), __( "Text" ), __( "Messaging" ), __( "Hero" ), __( "btm" ) ],
+    keywords: [ __( "Business" ), __( "Text" ), __( "Messaging" ), __( "2" ), __( "btm" ) ],
     attributes: {
         text1: {
             type: 'string',
@@ -26,7 +26,7 @@ registerBlockType("cgb/btm-hero", {
         },
         img1: {
             type: 'string',
-            default: "/wp-content/themes/voxtell-custom/img/new-pages/SMS-hero-img.png"
+            default: "/wp-content/themes/voxtell-custom/img/new-pages/What-Is-Business-Text-Messaging.svg"
         }
     },
 
@@ -41,7 +41,7 @@ registerBlockType("cgb/btm-hero", {
         const handleImg1 = obj => setAttributes({ img1: obj.sizes.full.url });
 
         return (
-            <section id="btm-hero" className="section section-btm-lr-50">
+            <section id="btm-2" className="section section-btm-lr-50">
                 <div className="container">
                     <div className="row">
                         <div className="left-col">
@@ -52,8 +52,8 @@ registerBlockType("cgb/btm-hero", {
                                 <RichText value={text2} onChange={handleText2}/>
                             </p>
                             <span className="btn">
-                                <RichText value={text3} onChange={handleText3}/>
-                            </span>
+                                 <RichText value={text3} onChange={handleText3}/>
+                             </span>
                             <URLInput value={link1} onChange={handleLink1} />
                         </div>
                         <div className="right-col">
@@ -79,7 +79,7 @@ registerBlockType("cgb/btm-hero", {
         const { text1, text2, text3, link1, img1 } = props.attributes;
 
         return (
-            <section id="btm-hero" className="section section-btm-lr-50">
+            <section id="btm-2" className="section section-btm-lr-50">
                 <div className="container">
                     <div className="row">
                         <div className="left-col">

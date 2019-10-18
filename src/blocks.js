@@ -105,6 +105,10 @@ import "./online-fax-service/ofs-hero.js";
 
 // Business text messaging
 import "./business-text-messaging/btm-hero.js";
+import "./business-text-messaging/btm-2.js";
+import "./business-text-messaging/btm-3.js";
+import "./business-text-messaging/btm-4.js";
+import "./business-text-messaging/btm-5.js";
 
 // not editable
 import "./not-editable/online-fax-service.js";

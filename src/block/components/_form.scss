@@ -78,6 +78,18 @@ input[type="checkbox"]:checked {
 // box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
 
 // ------------------------ select styles START
+.filter-item select {
+  background-color: #fff;
+  border: 1px solid #a7a9ac;
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding: 6px 16px;
+  min-height: 50px;
+  min-width: 150px;
+}
+
 .form-wrap {
   select {
     background-color: #fff;

@@ -77,7 +77,7 @@ body {
 }
 
 /*================================================
-     product price 
+     product price
 ================================================*/
 .product__price {
     &__fixed {
@@ -123,3 +123,13 @@ body {
         left: 15px;
     } // :: after
 } // old price
+
+
+// voxtell-certified-phones-devices page title hide
+.voxtell-certified-phones-devices .products-grid {
+  padding-top: 105px;
+
+  .header{
+    display: none;
+  }
+}

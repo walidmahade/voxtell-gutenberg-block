@@ -1,6 +1,6 @@
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
-const { RichText, InspectorControls, RadioControl } = wp.editor;
+const { RichText } = wp.editor;
 const { withSelect } = wp.data;
 
 registerBlockType("cgb/products", {
