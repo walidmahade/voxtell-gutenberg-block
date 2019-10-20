@@ -27,8 +27,10 @@ registerBlockType("cgb/pricing-new", {
                         </div>
                     </div>
                 </section>
+
                 <section id="pricing-tables" className="section">
                     <div className="container">
+
                         <div className="row">
                             <div className="tab-nav w-100">
                                 <button className="tab-btn active" data-id={1}>
@@ -42,6 +44,7 @@ registerBlockType("cgb/pricing-new", {
                                 </button>
                             </div>
                         </div>
+
                         <div className="row">
                             <div className="tab-contents w-100">
                                 {/* START tab content */}
@@ -1360,14 +1363,12 @@ registerBlockType("cgb/pricing-new", {
                         </div>
                     </div>
                 </section>
+
                 <section id="compare-acc" className="section">
                     <div className="container">
                         <div className="row">
                             {/* START compare acc */}
-                            <div
-                                className="compare-acc-item active"
-                                data-acc-id={1}
-                            >
+                            <div className="compare-acc-item active" data-acc-id={1}>
                                 <div className="header w-100">
                                     <h3 className="title--sec w-100 center">
                                         Compare our most popular features
@@ -2212,6 +2213,7 @@ registerBlockType("cgb/pricing-new", {
                         </div>
                     </div>
                 </section>
+
                 <section id="np-all-suite">
                     <div className="container">
                         <div className="row header">
@@ -2227,21 +2229,7 @@ registerBlockType("cgb/pricing-new", {
                                 <div className="sf__item">
                                     <h4 className="para title">Call Pop</h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>

@@ -260,6 +260,10 @@ function mw_page_block_categories( $categories, $post ) {
             array(
                 'slug' => 'pbx-sip-trunk',
                 'title' => __( 'PBX sip trunk', 'pbx-sip-trunk' ),
+            ),
+            array(
+                'slug' => 'new-pricing',
+                'title' => __( 'New pricing', 'new-pricing' ),
             )
 		)
 	);

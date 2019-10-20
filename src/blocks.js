@@ -126,6 +126,11 @@ import "./business-text-messaging/btm-3.js";
 import "./business-text-messaging/btm-4.js";
 import "./business-text-messaging/btm-5.js";
 
+// new pricing
+import "./new-pricing/new-pricing-hero.js";
+import "./new-pricing/new-pricing-2.js";
+import "./new-pricing/new-pricing-tables.js";
+
 // not editable
 import "./not-editable/online-fax-service.js";
 import "./not-editable/business-phone-service-app.js";

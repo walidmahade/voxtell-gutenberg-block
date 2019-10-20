@@ -127,3 +127,9 @@
     flex-wrap: wrap;
   }
 }
+
+#pricing-tables {
+  .card.price-card {
+    padding: 0;
+  }
+}
