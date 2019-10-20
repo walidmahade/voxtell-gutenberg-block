@@ -82,12 +82,9 @@ registerBlockType("cgb/osf-hero", {
                         <p className="para para--subt">
                             <RichText.Content value={text3} />
                         </p>
-                        <span className="btn">
+                        <a href={btnLink} className="btn">
                             <RichText.Content value={btnText} />
-                        </span>
-                        <div>
-                            <URLInput.Content value={btnLink} />
-                        </div>
+                        </a>
                     </div>
                 </div>
             </section>

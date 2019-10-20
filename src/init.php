@@ -256,6 +256,10 @@ function mw_page_block_categories( $categories, $post ) {
             array(
                 'slug' => 'business-text-messaging',
                 'title' => __( 'Business Test Messaging', 'business-text-messaging' ),
+            ),
+            array(
+                'slug' => 'pbx-sip-trunk',
+                'title' => __( 'PBX sip trunk', 'pbx-sip-trunk' ),
             )
 		)
 	);

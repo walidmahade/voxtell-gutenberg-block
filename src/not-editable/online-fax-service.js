@@ -416,7 +416,7 @@ registerBlockType("cgb/online-fax-service", {
                                     alt=""
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Call Us</h3>
@@ -432,7 +432,7 @@ registerBlockType("cgb/online-fax-service", {
                                     alt=""
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Email Us</h3>
@@ -448,7 +448,7 @@ registerBlockType("cgb/online-fax-service", {
                                     alt=""
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Live Chat</h3>
@@ -878,7 +878,7 @@ registerBlockType("cgb/online-fax-service", {
                                     alt=""
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Call Us</h3>
@@ -894,7 +894,7 @@ registerBlockType("cgb/online-fax-service", {
                                     alt=""
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Email Us</h3>
@@ -910,7 +910,7 @@ registerBlockType("cgb/online-fax-service", {
                                     alt=""
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Live Chat</h3>

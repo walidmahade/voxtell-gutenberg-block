@@ -102,6 +102,22 @@ import "./voxtell-devices/products-page-hero.js";
 
 // online fax service
 import "./online-fax-service/ofs-hero.js";
+import "./online-fax-service/ofs-2.js";
+import "./online-fax-service/ofs-price-table.js";
+import "./online-fax-service/ofs-3.js";
+import "./online-fax-service/ofs-4.js";
+import "./online-fax-service/ofs-5.js";
+import "./online-fax-service/ofs-6.js";
+import "./online-fax-service/ofs-7.js";
+
+// pbx sip trunk
+import "./pbx-sip-trunk/pbxst-hero.js";
+import "./pbx-sip-trunk/pbxst-2.js";
+import "./pbx-sip-trunk/pbxst-3.js";
+import "./pbx-sip-trunk/pbxst-4.js";
+import "./pbx-sip-trunk/pbxst-5.js";
+import "./pbx-sip-trunk/pbxst-6.js";
+import "./pbx-sip-trunk/pbxst-7.js";
 
 // Business text messaging
 import "./business-text-messaging/btm-hero.js";

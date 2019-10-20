@@ -16,12 +16,13 @@
 }
 
 .btn-editor {
-    border: 1px solid #a7a9ac;
-    padding: 8px;
-    border-radius: 5px;
-    line-height: 1;
-    margin-top: 15px;
+  border: 1px solid #a7a9ac;
+  padding: 8px;
+  border-radius: 5px;
+  line-height: 1;
+  margin-top: 15px;
   max-height: 35px;
+  color: #1a2731 !important;
 }
 
 .block-editor-block-inspector__card-title {
@@ -86,6 +87,21 @@
   }
 }
 
+#ofs-pricing {
+  .editor-block-list__layout.block-editor-block-list__layout {
+    display: flex;
+    justify-content: space-between;
+
+    & > div {
+      width: 100px;
+    }
+
+    [data-type="cgb/ofs-price-table"] {
+      width: 32%;
+    }
+  }
+}
+
 // ========================================== block editing page styles end
 // ------ editor-rich-text.block-editor-rich-text
 .edit-post-sidebar .editor-rich-text.block-editor-rich-text {
@@ -103,4 +119,11 @@
 
 .list-checkmark {
   list-style: none !important;
+}
+
+// ============================  pbx sip trunk
+#pst-other-products {
+  .box {
+    flex-wrap: wrap;
+  }
 }

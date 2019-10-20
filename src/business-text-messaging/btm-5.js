@@ -14,7 +14,7 @@ registerBlockType("cgb/btm-5", {
         },
         text2: {
             type: 'string',
-            default: "Send and receive text messages from your business phone number, directly from your iPhone or Android with the Nextiva App."
+            default: "Send and receive text messages from your business phone number, directly from your iPhone or Android with the Voxtell App."
         },
         text3: {
             type: 'string',

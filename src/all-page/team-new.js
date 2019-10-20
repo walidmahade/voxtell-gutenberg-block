@@ -31,7 +31,7 @@ registerBlockType("cgb/team-section-new-bg", {
         },
         text3: {
             type: "string",
-            default: "<strong>Mark C.</strong> | with Nextiva since 2018"
+            default: "<strong>Mark C.</strong> | with Voxtell since 2018"
         },
         text4: {
             type: "string",
@@ -43,7 +43,7 @@ registerBlockType("cgb/team-section-new-bg", {
         },
         text6: {
             type: "string",
-            default: "<strong>Mark C.</strong> | with Nextiva since 2018"
+            default: "<strong>Mark C.</strong> | with Voxtell since 2018"
         },
         text7: {
             type: "string",
@@ -55,7 +55,7 @@ registerBlockType("cgb/team-section-new-bg", {
         },
         text9: {
             type: "string",
-            default: "<strong>Mark C.</strong> | with Nextiva since 2018"
+            default: "<strong>Mark C.</strong> | with Voxtell since 2018"
         },
         text10: {
             type: "string",
@@ -81,6 +81,10 @@ registerBlockType("cgb/team-section-new-bg", {
             type: "string",
             default: "#"
         },
+        background_color: {
+            type: "string",
+            default: "rgba(255,255,255,1)"
+        }
     },
 
     edit: props => {
@@ -119,7 +123,9 @@ registerBlockType("cgb/team-section-new-bg", {
         return (
             <div style={block_style}>
                 <InspectorControls>
-                    <label className="blocks-base-control__label"><strong>background color</strong></label>
+                    <label className="blocks-base-control__label">
+                        <strong>background color</strong>
+                    </label>
                     <ColorPalette
                         colors={colors}
                         value={background_color}

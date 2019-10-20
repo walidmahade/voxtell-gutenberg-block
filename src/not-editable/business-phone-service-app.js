@@ -41,7 +41,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         text1: {
             type: "string",
-            default: "SMS for your business. Now available on the Nextiva App."
+            default: "SMS for your business. Now available on the Voxtell App."
         },
         text2: {
             type: "string",
@@ -49,7 +49,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         text3: {
             type: "string",
-            default: "Working today is rarely limited to an office. We need to stay connected when traveling, commuting, and working from home. The Nextiva App, included in the Business Communication Suite, enables complete mobility for your Nextiva phone service."
+            default: "Working today is rarely limited to an office. We need to stay connected when traveling, commuting, and working from home. The Voxtell App, included in the Business Communication Suite, enables complete mobility for your Voxtell phone service."
         },
         btnText3: {
             type: "string",
@@ -73,7 +73,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         text6: {
             type: "string",
-            default: "Make and receive calls on your computer or mobile phone. The Nextiva App keeps you connected when you're away from your office phone - or replaces your desk phone all together. It's like carrying your office in the palm of your hand."
+            default: "Make and receive calls on your computer or mobile phone. The Voxtell App keeps you connected when you're away from your office phone - or replaces your desk phone all together. It's like carrying your office in the palm of your hand."
         },
         text7: {
             type: "string",
@@ -85,7 +85,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         text9: {
             type: "string",
-            default: "In addition to phone calls, the Nextiva App is loaded with collaboration tools to keep you connected to your colleagues and customers from any location. Conduct video conferences with screen-sharing from any computer or laptop. Plus, chat in real time with coworkers and teams using our instant messaging, chatroom, and SMS features on your mobile phone."
+            default: "In addition to phone calls, the Voxtell App is loaded with collaboration tools to keep you connected to your colleagues and customers from any location. Conduct video conferences with screen-sharing from any computer or laptop. Plus, chat in real time with coworkers and teams using our instant messaging, chatroom, and SMS features on your mobile phone."
         },
         btnText4: {
             type: "string",
@@ -177,7 +177,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         img9: {
             type: "string",
-            default:  "/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-App.svg"
+            default:  "/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-App.svg"
         },
         img10: {
             type: "string",
@@ -201,7 +201,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         text22: {
             type: "string",
-            default: "Nextiva App"
+            default: "Voxtell App"
         },
         text23: {
             type: "string",
@@ -213,7 +213,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         text25: {
             type: "string",
-            default: "Manage teams and employees by sending and receiving business text messages through the Nextiva app"
+            default: "Manage teams and employees by sending and receiving business text messages through the Voxtell app"
         },
         text26: {
             type: "string",

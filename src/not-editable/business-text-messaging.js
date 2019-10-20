@@ -74,7 +74,7 @@ registerBlockType("cgb/business-text-messaging", {
                             </h2>
                             <p className="para para--subt">
                                 Send business text messages easily with the
-                                Nextiva platform.
+                                Voxtell platform.
                             </p>
                         </div>
                         <div className="row icon-box">
@@ -111,7 +111,7 @@ registerBlockType("cgb/business-text-messaging", {
                                 />
                                 <h3 className="title--sec">Use the App</h3>
                                 <p className="para">
-                                    Use the Nextiva App to send and receive
+                                    Use the Voxtell App to send and receive
                                     texts from your desktop and mobile device.
                                 </p>
                             </div>
@@ -158,7 +158,7 @@ registerBlockType("cgb/business-text-messaging", {
                                 <div className="item">
                                     <p className="para">
                                         Answer business calls with texting via
-                                        the Nextiva platform.
+                                        the Voxtell platform.
                                     </p>
                                 </div>
                                 <div className="item">
@@ -190,7 +190,7 @@ registerBlockType("cgb/business-text-messaging", {
                             <p className="para">
                                 Send and receive text messages from your
                                 business phone number, directly from your iPhone
-                                or Android with the Nextiva App.
+                                or Android with the Voxtell App.
                             </p>
                             <div className="cta w-100">
                                 <a href="#" className="btn">
@@ -217,13 +217,13 @@ registerBlockType("cgb/business-text-messaging", {
                             <h2 className="title--big w-100">
                                 See what else you can do
                                 <br />
-                                better with Nextiva.
+                                better with Voxtell.
                             </h2>
                         </div>
                         <div className="row posts-cards">
                             <a href="#" className="box">
                                 <img
-                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                     alt
                                 />
                                 <div className="category">Category</div>
@@ -239,7 +239,7 @@ registerBlockType("cgb/business-text-messaging", {
                             </a>
                             <a href="#" className="box">
                                 <img
-                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                     alt
                                 />
                                 <div className="category">Category</div>
@@ -255,7 +255,7 @@ registerBlockType("cgb/business-text-messaging", {
                             </a>
                             <a href="#" className="box">
                                 <img
-                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                     alt
                                 />
                                 <div className="category">Category</div>
@@ -291,7 +291,7 @@ registerBlockType("cgb/business-text-messaging", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Call Us</h3>
@@ -307,7 +307,7 @@ registerBlockType("cgb/business-text-messaging", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Email Us</h3>
@@ -323,7 +323,7 @@ registerBlockType("cgb/business-text-messaging", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Live Chat</h3>
@@ -412,7 +412,7 @@ registerBlockType("cgb/business-text-messaging", {
                             </h2>
                             <p className="para para--subt">
                                 Send business text messages easily with the
-                                Nextiva platform.
+                                Voxtell platform.
                             </p>
                         </div>
                         <div className="row icon-box">
@@ -449,7 +449,7 @@ registerBlockType("cgb/business-text-messaging", {
                                 />
                                 <h3 className="title--sec">Use the App</h3>
                                 <p className="para">
-                                    Use the Nextiva App to send and receive
+                                    Use the Voxtell App to send and receive
                                     texts from your desktop and mobile device.
                                 </p>
                             </div>
@@ -496,7 +496,7 @@ registerBlockType("cgb/business-text-messaging", {
                                 <div className="item">
                                     <p className="para">
                                         Answer business calls with texting via
-                                        the Nextiva platform.
+                                        the Voxtell platform.
                                     </p>
                                 </div>
                                 <div className="item">
@@ -528,7 +528,7 @@ registerBlockType("cgb/business-text-messaging", {
                             <p className="para">
                                 Send and receive text messages from your
                                 business phone number, directly from your iPhone
-                                or Android with the Nextiva App.
+                                or Android with the Voxtell App.
                             </p>
                             <div className="cta w-100">
                                 <a href="#" className="btn">
@@ -555,13 +555,13 @@ registerBlockType("cgb/business-text-messaging", {
                             <h2 className="title--big w-100">
                                 See what else you can do
                                 <br />
-                                better with Nextiva.
+                                better with Voxtell.
                             </h2>
                         </div>
                         <div className="row posts-cards">
                             <a href="#" className="box">
                                 <img
-                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                     alt
                                 />
                                 <div className="category">Category</div>
@@ -577,7 +577,7 @@ registerBlockType("cgb/business-text-messaging", {
                             </a>
                             <a href="#" className="box">
                                 <img
-                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                     alt
                                 />
                                 <div className="category">Category</div>
@@ -593,7 +593,7 @@ registerBlockType("cgb/business-text-messaging", {
                             </a>
                             <a href="#" className="box">
                                 <img
-                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                    src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                     alt
                                 />
                                 <div className="category">Category</div>
@@ -629,7 +629,7 @@ registerBlockType("cgb/business-text-messaging", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Call Us</h3>
@@ -645,7 +645,7 @@ registerBlockType("cgb/business-text-messaging", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Email Us</h3>
@@ -661,7 +661,7 @@ registerBlockType("cgb/business-text-messaging", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Live Chat</h3>

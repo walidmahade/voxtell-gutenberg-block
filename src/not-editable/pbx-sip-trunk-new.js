@@ -142,28 +142,11 @@ registerBlockType("cgb/pbx-sip-trunk", {
                             />
                             <h2 className="title--big">Get more power.</h2>
                             <p className="para">
-                                Your existing phones and devices get crisp HD
-                                audio, messaging, and video capabilities.
-                                Manage, administer, and monitor your entire
-                                system from one place—the NextOS dashboard.
+                                Your existing phones and devices get crisp HD audio, messaging, and video capabilities. Manage, administer, and monitor your entire system from one place—the NextOS dashboard.
                             </p>
                             <p className="para text-link">
                                 <span>Get Started</span>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width={13}
-                                    height="14.182"
-                                    viewBox="0 0 13 14.182"
-                                >
-                                    {" "}
-                                    <path
-                                        id="Path_1256"
-                                        data-name="Path 1256"
-                                        d="M13,6.739,5.909,13.83,3.545,11.467,7.091,8.512H0V4.967H7.091L3.545,2.012,5.909-.352Z"
-                                        transform="translate(0 0.352)"
-                                        fill="#FFFFFF"
-                                    />{" "}
-                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width={13} height="14.182" viewBox="0 0 13 14.182"><path id="Path_1256" data-name="Path 1256" d="M13,6.739,5.909,13.83,3.545,11.467,7.091,8.512H0V4.967H7.091L3.545,2.012,5.909-.352Z" transform="translate(0 0.352)" fill="#FFFFFF"/></svg>
                             </p>
                         </a>
                         {/* big card left end */}
@@ -175,29 +158,11 @@ registerBlockType("cgb/pbx-sip-trunk", {
                             />
                             <h2 className="title--big">Any PBX works.</h2>
                             <p className="para">
-                                We use a hardware solution which creates a
-                                blended SIP trunking environment. You'll get
-                                TLS, SRTP, HTTPS, SSH client/server encryption
-                                and authentication. We'll do the hard work for
-                                you.
+                                We use a hardware solution which creates a blended SIP trunking environment. You'll get TLS, SRTP, HTTPS, SSH client/server encryption and authentication. We'll do the hard work for you.
                             </p>
                             <p className="para text-link">
                                 <span>Get started</span>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width={13}
-                                    height="14.182"
-                                    viewBox="0 0 13 14.182"
-                                >
-                                    {" "}
-                                    <path
-                                        id="Path_1256"
-                                        data-name="Path 1256"
-                                        d="M13,6.739,5.909,13.83,3.545,11.467,7.091,8.512H0V4.967H7.091L3.545,2.012,5.909-.352Z"
-                                        transform="translate(0 0.352)"
-                                        fill="#FFFFFF"
-                                    />{" "}
-                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width={13} height="14.182" viewBox="0 0 13 14.182"><path id="Path_1256" data-name="Path 1256" d="M13,6.739,5.909,13.83,3.545,11.467,7.091,8.512H0V4.967H7.091L3.545,2.012,5.909-.352Z" transform="translate(0 0.352)" fill="#FFFFFF"/></svg>
                             </p>
                         </a>
                         {/* big card right end */}
@@ -216,11 +181,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                                     Easily scale as you grow.
                                 </h2>
                                 <p className="para">
-                                    Our system allows you to quickly respond to
-                                    growing customer call volumes and see
-                                    exactly where your bottlenecks are. You can
-                                    add more lines within minutes with no
-                                    complex set up.
+                                    Our system allows you to quickly respond to growing customer call volumes and see exactly where your bottlenecks are. You can add more lines within minutes with no complex set up.
                                 </p>
                             </div>
                             <div className="right-col">
@@ -233,15 +194,13 @@ registerBlockType("cgb/pbx-sip-trunk", {
                                     Deploy in days, not weeks.
                                 </h2>
                                 <p className="para">
-                                    We'll introduce you to our strategic
-                                    deployment strategy. Our goal is to get your
-                                    system upgraded and running as fast as we
-                                    can. We'll support you the whole way.
+                                    We'll introduce you to our strategic deployment strategy. Our goal is to get your system upgraded and running as fast as we can. We'll support you the whole way.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </section>
+
                 <section id="pst-6" className="section">
                     <div className="container">
                         <div className="row center">
@@ -266,6 +225,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                         </div>
                     </div>
                 </section>
+
                 <section id="pst-other-products" className="section">
                     <div className="container">
                         <div className="row center header">
@@ -415,6 +375,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                         </div>
                     </div>
                 </section>
+
                 <section id="team-members-v2" className="section--last">
                     <div className="container">
                         <div className="row header">
@@ -434,7 +395,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Call Us</h3>
@@ -450,7 +411,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Email Us</h3>
@@ -466,7 +427,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Live Chat</h3>
@@ -625,21 +586,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                             </p>
                             <p className="para text-link">
                                 <span>Get Started</span>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width={13}
-                                    height="14.182"
-                                    viewBox="0 0 13 14.182"
-                                >
-                                    {" "}
-                                    <path
-                                        id="Path_1256"
-                                        data-name="Path 1256"
-                                        d="M13,6.739,5.909,13.83,3.545,11.467,7.091,8.512H0V4.967H7.091L3.545,2.012,5.909-.352Z"
-                                        transform="translate(0 0.352)"
-                                        fill="#FFFFFF"
-                                    />{" "}
-                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width={13} height="14.182" viewBox="0 0 13 14.182"><path id="Path_1256" data-name="Path 1256" d="M13,6.739,5.909,13.83,3.545,11.467,7.091,8.512H0V4.967H7.091L3.545,2.012,5.909-.352Z" transform="translate(0 0.352)" fill="#FFFFFF"/></svg>
                             </p>
                         </a>
                         {/* big card left end */}
@@ -659,21 +606,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                             </p>
                             <p className="para text-link">
                                 <span>Get started</span>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width={13}
-                                    height="14.182"
-                                    viewBox="0 0 13 14.182"
-                                >
-                                    {" "}
-                                    <path
-                                        id="Path_1256"
-                                        data-name="Path 1256"
-                                        d="M13,6.739,5.909,13.83,3.545,11.467,7.091,8.512H0V4.967H7.091L3.545,2.012,5.909-.352Z"
-                                        transform="translate(0 0.352)"
-                                        fill="#FFFFFF"
-                                    />{" "}
-                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width={13} height="14.182" viewBox="0 0 13 14.182"><path id="Path_1256" data-name="Path 1256" d="M13,6.739,5.909,13.83,3.545,11.467,7.091,8.512H0V4.967H7.091L3.545,2.012,5.909-.352Z" transform="translate(0 0.352)" fill="#FFFFFF"/></svg>
                             </p>
                         </a>
                         {/* big card right end */}
@@ -910,7 +843,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Call Us</h3>
@@ -926,7 +859,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Email Us</h3>
@@ -942,7 +875,7 @@ registerBlockType("cgb/pbx-sip-trunk", {
                                     alt
                                 />
                                 <div className="info">
-                                    <strong>Mark C.</strong> | with Nextiva
+                                    <strong>Mark C.</strong> | with Voxtell
                                     since 2018
                                 </div>
                                 <h3 className="title--sec">Live Chat</h3>

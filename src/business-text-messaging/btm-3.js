@@ -14,7 +14,7 @@ registerBlockType("cgb/btm-3", {
         },
         text2: {
             type: 'string',
-            default: "Send business text messages easily with the Nextiva platform."
+            default: "Send business text messages easily with the Voxtell platform."
         },
         text3: {
             type: 'string',
@@ -38,7 +38,7 @@ registerBlockType("cgb/btm-3", {
         },
         text8: {
             type: 'string',
-            default: "Use the Nextiva App to send and receive texts from your desktop and mobile device."
+            default: "Use the Voxtell App to send and receive texts from your desktop and mobile device."
         },
         img1: {
             type: 'string',

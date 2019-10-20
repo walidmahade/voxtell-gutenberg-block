@@ -26,7 +26,7 @@ registerBlockType("cgb/our-solution-subpage", {
                     <div className="row posts-cards">
                         <a href="#" className="box">
                             <img
-                                src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                 alt
                             />
                             <div className="category">Category</div>
@@ -42,7 +42,7 @@ registerBlockType("cgb/our-solution-subpage", {
                         </a>
                         <a href="#" className="box">
                             <img
-                                src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                 alt
                             />
                             <div className="category">Category</div>
@@ -58,7 +58,7 @@ registerBlockType("cgb/our-solution-subpage", {
                         </a>
                         <a href="#" className="box">
                             <img
-                                src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                 alt
                             />
                             <div className="category">Category</div>
@@ -90,7 +90,7 @@ registerBlockType("cgb/our-solution-subpage", {
                     <div className="row posts-cards">
                         <a href="#" className="box">
                             <img
-                                src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                 alt
                             />
                             <div className="category">Category</div>
@@ -106,7 +106,7 @@ registerBlockType("cgb/our-solution-subpage", {
                         </a>
                         <a href="#" className="box">
                             <img
-                                src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                 alt
                             />
                             <div className="category">Category</div>
@@ -122,7 +122,7 @@ registerBlockType("cgb/our-solution-subpage", {
                         </a>
                         <a href="#" className="box">
                             <img
-                                src="/wp-content/themes/voxtell-custom/img/new-pages/Nextiva-CRM.svg"
+                                src="/wp-content/themes/voxtell-custom/img/new-pages/Voxtell-CRM.svg"
                                 alt
                             />
                             <div className="category">Category</div>

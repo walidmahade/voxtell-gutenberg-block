@@ -33,13 +33,14 @@
     }
 
     .price-card {
-        text-align: center;
-        @include br;
-        width: 100%;
-        position: relative;
-        margin-bottom: 65px;
-        box-shadow: 0 0 0 transparent;
-        transition: box-shadow 0.3s ease-in-out;
+      text-align: center;
+      @include br;
+      width: 100%;
+      position: relative;
+      margin-bottom: 65px;
+      box-shadow: 0 0 0 transparent;
+      padding: 0;
+      transition: box-shadow 0.3s ease-in-out;
 
         @include breakpoint(sm) {
             width: 45%;
@@ -305,8 +306,8 @@
 
     .security {
         min-height: 369px;
-        background: url(/wp-content/themes/voxtell-custom/img/new-pages/security-bg.svg)
-            center left 80px no-repeat;
+        //background: url(/wp-content/themes/voxtell-custom/img/new-pages/security-bg.svg)
+            //center left 80px no-repeat;
         border-left: 28px solid $dark;
     }
 
@@ -358,8 +359,8 @@
 
     .number {
         min-height: 369px;
-        background: url(/wp-content/themes/voxtell-custom/img/new-pages/keep-number-bg.svg)
-            center right 80px no-repeat;
+        //background: url(/wp-content/themes/voxtell-custom/img/new-pages/keep-number-bg.svg)
+        //    center right 80px no-repeat;
         border-right: 28px solid $dark;
     }
 }

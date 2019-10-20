@@ -30,7 +30,7 @@ registerBlockType("cgb/btm-4", {
         },
         text6: {
             type: 'string',
-            default: "Answer business calls with texting via the Nextiva platform."
+            default: "Answer business calls with texting via the Voxtell platform."
         },
         text7: {
             type: 'string',
