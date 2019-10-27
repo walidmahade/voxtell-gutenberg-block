@@ -3,6 +3,17 @@
     position: relative;
     text-align: center;
     padding: 60px 0px 146px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    .content {
+      z-index: 9;
+      width: 100%;
+      padding: 0 10px;
+    }
 
     .title--sec,
     .para {

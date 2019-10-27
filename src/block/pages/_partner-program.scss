@@ -74,6 +74,8 @@
         @include fw;
         max-width: 930px;
         margin-top: 65px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .benefits__item {
@@ -129,4 +131,10 @@
         border: 0;
         box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
     }
+
+    ._error-inner {
+      padding-top: 10px;
+      color: #fff;
+    }
+
 } // pp-apply-form

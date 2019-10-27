@@ -46,11 +46,6 @@ registerBlockType("cgb/pricing-new-2", {
             // get corresponding content
             let currentContent = document.querySelector(".tab-contents #" + getID);
 
-            // get corresponding acc-content
-            let CompareAccItem = document.querySelector(
-                ".compare-acc-item[data-acc-id='" + getID + "']"
-            );
-
             // show hide tab content
             let allTabContents = document.querySelectorAll('.tab-contents .tab-content-item');
 
@@ -61,14 +56,18 @@ registerBlockType("cgb/pricing-new-2", {
             }
             currentContent.classList.add('active');
 
+            // get corresponding acc-content
+            let CompareAccItem = document.querySelector( ".compare-acc-item[data-acc-id='" + getID + "']" );
+            console.log(CompareAccItem, ".compare-acc-item[data-acc-id='" + getID + "']");
             // show hide acc item row
-            // let allAccSections = document.querySelectorAll('.compare-acc-item');
-            // for (let i = 0; i < allAccSections.length; i++) {
-            //     if (!allAccSections[i].getAttribute('id') === getID) {
-            //         allAccSections[i].classList.remove('active');
-            //     }
-            // }
-            // CompareAccItem.classList.add("active");
+            let allAccSections = document.querySelectorAll('.compare-acc-item');
+
+            for (let i = 0; i < allAccSections.length; i++) {
+                if (!allAccSections[i].getAttribute('data-acc-id') !== getID) {
+                    allAccSections[i].classList.remove('active');
+                }
+            }
+            CompareAccItem.classList.add("active");
         };
 
         return (

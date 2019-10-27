@@ -26,7 +26,7 @@ registerBlockType("cgb/carers-team-photo", {
                 <img
                     src={props.attributes.backgroundImage}
                     alt="Voxtell team photo"
-                    class="img-responsive"
+                    className="img-responsive"
                 />
 
                 <MediaUpload
@@ -49,7 +49,7 @@ registerBlockType("cgb/carers-team-photo", {
                 <img
                     src={props.attributes.backgroundImage}
                     alt="Voxtell team photo"
-                    class="img-responsive"
+                    className="img-responsive"
                 />
             </section>
         );

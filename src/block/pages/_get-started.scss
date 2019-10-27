@@ -23,6 +23,11 @@
         text-align: left;
         @include jc(fs);
     }
+
+  ._error-inner {
+    padding-top: 10px;
+    opacity: .5;
+  }
 }
 
 #get-started-form {

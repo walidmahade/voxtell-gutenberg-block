@@ -10,7 +10,7 @@ registerBlockType("cgb/last-3-posts", {
     attributes: {
         text1: {
             type: "string",
-            default: "Build Amazing Companies"
+            default: "Build Amazing<span class=\"orange\">Companies</span>"
         }
     },
 

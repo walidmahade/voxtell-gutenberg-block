@@ -152,4 +152,11 @@
             padding-left: 25px;
         }
     } // right col
+
+  .form-wrap {
+    ._error-inner {
+      padding-top: 10px;
+      opacity: .5;
+    }
+  }
 } // contact us

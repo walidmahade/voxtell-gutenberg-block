@@ -53,128 +53,33 @@ registerBlockType("cgb/careers-faq", {
 
         return (
             <section id="careers-faq">
-                <div class="container">
-                    <div class="row">
-                        <div class="accdn">
-                            <div class="accdn__item accdn__item--active">
-                                <h3
-                                    class="accdn__title"
-                                    onClick={handleAccdnToggle}
-                                >
+                <div className="container">
+                    <div className="row">
+                        <div className="accdn">
+                            <div className="accdn__item accdn__item--active">
+                                <h3 className="accdn__title" onClick={handleAccdnToggle}>
                                     <span>
-                                        <RichText
-                                            value={text1}
-                                            onChange={handleT1}
-                                        />
+                                        <RichText value={text1} onChange={handleT1}/>
                                     </span>
-                                    <span class="icon icon--closed">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 47.09 27.31"
-                                        >
-                                            <defs>
-                                                <style>
-                                                    {`.cls-1 {
-                                                    fill: url(#linear-gradient);
-                                            }`}
-                                                </style>
-                                                <linearGradient
-                                                    id="linear-gradient"
-                                                    y1="13.65"
-                                                    x2="47.09"
-                                                    y2="13.65"
-                                                    gradientUnits="userSpaceOnUse"
-                                                >
-                                                    <stop
-                                                        offset="0"
-                                                        stop-color="#fbb615"
-                                                    ></stop>
-                                                    <stop
-                                                        offset="1"
-                                                        stop-color="#cb2d2c"
-                                                    ></stop>
-                                                </linearGradient>
-                                            </defs>
-                                            <title>Asset 2</title>
-                                            <g id="Layer_2" data-name="Layer 2">
-                                                <g
-                                                    id="Layer_1-2"
-                                                    data-name="Layer 1"
-                                                >
-                                                    <path
-                                                        className="cls-1"
-                                                        d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"
-                                                    ></path>
-                                                </g>
-                                            </g>
-                                        </svg>
+                                    <span className="icon icon--closed">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.09 27.31"><defs><style>{`.cls-1 { fill: url(#linear-gradient); }`}</style><linearGradient id="linear-gradient" y1="13.65" x2="47.09" y2="13.65" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fbb615"></stop><stop offset="1" stop-color="#cb2d2c"></stop></linearGradient></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"></path></g></g></svg>
                                     </span>
-                                    <span class="icon icon--open">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 47.09 27.31"
-                                        >
-                                            <defs>
-                                                <style>
-                                                    {`.cls-1 {
-                                                    fill: url(#linear-gradient);
-                                                }`}
-                                                </style>
-                                                <linearGradient
-                                                    id="linear-gradient"
-                                                    x1="-1220"
-                                                    y1="13.65"
-                                                    x2="-1172.91"
-                                                    y2="13.65"
-                                                    gradientTransform="translate(-1172.91 27.31) rotate(180)"
-                                                    gradientUnits="userSpaceOnUse"
-                                                >
-                                                    <stop
-                                                        offset="0"
-                                                        stop-color="#fbb615"
-                                                    ></stop>
-                                                    <stop
-                                                        offset="1"
-                                                        stop-color="#cb2d2c"
-                                                    ></stop>
-                                                </linearGradient>
-                                            </defs>
-                                            <title>Asset 3</title>
-                                            <g id="Layer_2" data-name="Layer 2">
-                                                <g
-                                                    id="Layer_1-2"
-                                                    data-name="Layer 1"
-                                                >
-                                                    <path
-                                                        className="cls-1"
-                                                        d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"
-                                                    ></path>
-                                                </g>
-                                            </g>
-                                        </svg>
+                                    <span className="icon icon--open">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.09 27.31"><defs><style>{`.cls-1 { fill: url(#linear-gradient); }`}</style><linearGradient id="linear-gradient" x1="-1220" y1="13.65" x2="-1172.91" y2="13.65" gradientTransform="translate(-1172.91 27.31) rotate(180)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fbb615"></stop><stop offset="1" stop-color="#cb2d2c"></stop></linearGradient></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"></path></g></g></svg>
                                     </span>
                                 </h3>
 
-                                <div class="accdn__body">
-                                    <div class="accdn__body__wrap">
-                                        <p class="para">
-                                            <RichText
-                                                value={text2}
-                                                onChange={handleT2}
-                                            />
+                                <div className="accdn__body">
+                                    <div className="accdn__body__wrap">
+                                        <p className="para">
+                                            <RichText value={text2} onChange={handleT2}/>
                                         </p>
 
-                                        <button class="btn">
-                                            <RichText
-                                                value={btnText}
-                                                onChange={updateBtnText}
-                                            />
+                                        <button className="btn">
+                                            <RichText value={btnText} onChange={updateBtnText}/>
                                         </button>
 
-                                        <URLInput
-                                            value={btnLink}
-                                            onChange={setBtnUrl}
-                                        />
+                                        <URLInput value={btnLink} onChange={setBtnUrl}/>
                                     </div>
                                 </div>
                             </div>
@@ -194,108 +99,28 @@ registerBlockType("cgb/careers-faq", {
 
         return (
             <section id="careers-faq">
-                <div class="container">
-                    <div class="row">
-                        <div class="accdn">
-                            <div class="accdn__item accdn__item--active">
-                                <h3 class="accdn__title">
+                <div className="container">
+                    <div className="row">
+                        <div className="accdn">
+                            <div className="accdn__item accdn__item--active">
+                                <h3 className="accdn__title">
                                     <span>
                                         <RichText.Content value={text1} />
                                     </span>
-                                    <span class="icon icon--closed">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 47.09 27.31"
-                                        >
-                                            <defs>
-                                                <style>
-                                                    {`.cls-1 {
-                                                    fill: url(#linear-gradient);
-                                            }`}
-                                                </style>
-                                                <linearGradient
-                                                    id="linear-gradient"
-                                                    y1="13.65"
-                                                    x2="47.09"
-                                                    y2="13.65"
-                                                    gradientUnits="userSpaceOnUse"
-                                                >
-                                                    <stop
-                                                        offset="0"
-                                                        stop-color="#fbb615"
-                                                    ></stop>
-                                                    <stop
-                                                        offset="1"
-                                                        stop-color="#cb2d2c"
-                                                    ></stop>
-                                                </linearGradient>
-                                            </defs>
-                                            <title>Asset 2</title>
-                                            <g id="Layer_2" data-name="Layer 2">
-                                                <g
-                                                    id="Layer_1-2"
-                                                    data-name="Layer 1"
-                                                >
-                                                    <path
-                                                        className="cls-1"
-                                                        d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"
-                                                    ></path>
-                                                </g>
-                                            </g>
-                                        </svg>
+                                    <span className="icon icon--closed">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.09 27.31"><defs><style>{`.cls-1 { fill: url(#linear-gradient); }`}</style><linearGradient id="linear-gradient" y1="13.65" x2="47.09" y2="13.65" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fbb615"></stop><stop offset="1" stop-color="#cb2d2c"></stop></linearGradient></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"></path></g></g></svg>
                                     </span>
-                                    <span class="icon icon--open">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 47.09 27.31"
-                                        >
-                                            <defs>
-                                                <style>
-                                                    {`.cls-1 {
-                                                    fill: url(#linear-gradient);
-                                                }`}
-                                                </style>
-                                                <linearGradient
-                                                    id="linear-gradient"
-                                                    x1="-1220"
-                                                    y1="13.65"
-                                                    x2="-1172.91"
-                                                    y2="13.65"
-                                                    gradientTransform="translate(-1172.91 27.31) rotate(180)"
-                                                    gradientUnits="userSpaceOnUse"
-                                                >
-                                                    <stop
-                                                        offset="0"
-                                                        stop-color="#fbb615"
-                                                    ></stop>
-                                                    <stop
-                                                        offset="1"
-                                                        stop-color="#cb2d2c"
-                                                    ></stop>
-                                                </linearGradient>
-                                            </defs>
-                                            <title>Asset 3</title>
-                                            <g id="Layer_2" data-name="Layer 2">
-                                                <g
-                                                    id="Layer_1-2"
-                                                    data-name="Layer 1"
-                                                >
-                                                    <path
-                                                        className="cls-1"
-                                                        d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"
-                                                    ></path>
-                                                </g>
-                                            </g>
-                                        </svg>
+                                    <span className="icon icon--open">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.09 27.31"><defs><style>{`.cls-1 { fill: url(#linear-gradient); }`}</style><linearGradient id="linear-gradient" x1="-1220" y1="13.65" x2="-1172.91" y2="13.65" gradientTransform="translate(-1172.91 27.31) rotate(180)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fbb615"></stop><stop offset="1" stop-color="#cb2d2c"></stop></linearGradient></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"></path></g></g></svg>
                                     </span>
                                 </h3>
 
-                                <div class="accdn__body center">
-                                    <div class="accdn__body__wrap">
-                                        <p class="para">
+                                <div className="accdn__body center">
+                                    <div className="accdn__body__wrap">
+                                        <p className="para">
                                             <RichText.Content value={text2} />
                                         </p>
-                                        <a href={btnLink} class="btn">
+                                        <a href={btnLink} className="btn">
                                             <RichText.Content value={btnText} />
                                         </a>
                                     </div>

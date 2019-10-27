@@ -36,7 +36,7 @@ registerBlockType("cgb/osf-2", {
                     </div>
                     {/* END switch*/}
                     <div className="row">
-                        <InnerBlocks />
+                        <InnerBlocks allowedBlocks={['cgb/ofs-price-table']}/>
                     </div>
                 </div>
             </section>

@@ -25,19 +25,15 @@ registerBlockType("cgb/careers-hero", {
 
         return (
             <section id="careers-hero">
-                <div class="bg-overlay dots-right"></div>
-                <h2 class="title--sec">
-                    <RichText
-                        value={props.attributes.secTitle}
-                        onChange={onSecTitleChange}
-                    />
-                </h2>
-                <p class="para">
-                    <RichText
-                        value={props.attributes.subTitle}
-                        onChange={subTitleChange}
-                    />
-                </p>
+                <div className="bg-overlay dots-right" />
+                <div className="content">
+                    <h2 className="title--sec">
+                        <RichText value={props.attributes.secTitle} onChange={onSecTitleChange}/>
+                    </h2>
+                    <p className="para">
+                        <RichText value={props.attributes.subTitle} onChange={subTitleChange}/>
+                    </p>
+                </div>
             </section>
         );
     },
@@ -45,13 +41,15 @@ registerBlockType("cgb/careers-hero", {
     save: props => {
         return (
             <section id="careers-hero">
-                <div class="bg-overlay dots-right"></div>
-                <h2 class="title--sec">
-                    <RichText.Content value={props.attributes.secTitle} />
-                </h2>
-                <p class="para">
-                    <RichText.Content value={props.attributes.subTitle} />
-                </p>
+                <div className="bg-overlay dots-right" />
+                <div className="content">
+                    <h2 className="title--sec">
+                        <RichText.Content value={ props.attributes.secTitle }/>
+                    </h2>
+                    <p className="para">
+                        <RichText.Content value={ props.attributes.subTitle }/>
+                    </p>
+                </div>
             </section>
         );
     }

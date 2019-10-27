@@ -1,7 +1,7 @@
 const { __ } = wp.i18n;
 const { registerBlockType } = wp.blocks;
 const {
-    RichText, InspectorControls, MediaUpload, URLInput, URLInputButton
+    RichText, InspectorControls, MediaUpload, URLInput, URLInputButton,
 } = wp.editor;
 const { TextareaControl  } = wp.components;
 
@@ -69,7 +69,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         text5: {
             type: "string",
-            default: "Business desk<br />phone <span className=\"orange\">optional</span>."
+            default: "Business desk<br />phone <span class=\"orange\">optional</span>."
         },
         text6: {
             type: "string",
@@ -81,7 +81,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         text8: {
             type: "string",
-            default: "<span className=\"orange\">Convenient</span><br />collaboration."
+            default: "<span class=\"orange\">Convenient</span><br />collaboration."
         },
         text9: {
             type: "string",
@@ -105,7 +105,7 @@ registerBlockType("cgb/business-phone-service-app", {
         },
         text10: {
             type: "string",
-            default: "Swap<br />devices<span className=\"orange\">like a ninja</span>."
+            default: "Swap<br />devices<span class=\"orange\">like a ninja</span>."
         },
         text11: {
             type: "string",
@@ -251,15 +251,27 @@ registerBlockType("cgb/business-phone-service-app", {
             type: "string",
             default: "Have questions about the Business Communication Suite?"
         },
-        text35: {
-            type: "string",
-            default: "Build Amazing<span className=\"orange\">Companies</span>"
-        },
         btnText6: {
             type: "string",
             default: "Chat with an expert"
         },
         btnLink6: {
+            type: "string",
+            default: "#"
+        },
+        btnLink7: {
+            type: "string",
+            default: "#"
+        },
+        btnLink8: {
+            type: "string",
+            default: "#"
+        },
+        btnLink9: {
+            type: "string",
+            default: "#"
+        },
+        btnLink10: {
             type: "string",
             default: "#"
         },
@@ -273,7 +285,8 @@ registerBlockType("cgb/business-phone-service-app", {
             text12, text13, text14, text15, img5, img6, img7, img8, text16, text17,
             text18, text19, text20, btnText5, btnLink5, text21, img9, img10, img11,
             img12, img13, img14, text22, text23, text24, text25, text26, text27, text28,
-            text29, text30, text31, text32, text33, text34, text35, btnText6, btnLink6
+            text29, text30, text31, text32, text33, text34, btnText6, btnLink6, btnLink7,
+            btnLink8, btnLink9, btnLink10
         } = props.attributes;
 
         const { setAttributes } = props;
@@ -281,10 +294,7 @@ registerBlockType("cgb/business-phone-service-app", {
         const handleHeroImg = obj => setAttributes({ logo: obj.sizes.full.url });
         const handleHeroT1 = heroT1 => setAttributes({ heroT1 });
         const handleHeroT2 = heroT2 => setAttributes({ heroT2 });
-        const handleBtnText1 = btnText1 => setAttributes({ btnText1 });
-        const handleBtnText2 = btnText2 => setAttributes({ btnText2 });
-        const handleBtnLink1 = btnLink1 => setAttributes({ btnLink1 });
-        const handleBtnLink2 = btnLink2 => setAttributes({ btnLink2 });
+
         const handleText1 = text1 => setAttributes({ text1 });
         const handleText2 = text2 => setAttributes({ text2 });
         const handleText3 = text3 => setAttributes({ text3 });
@@ -319,15 +329,25 @@ registerBlockType("cgb/business-phone-service-app", {
         const handleText32 = text32 => setAttributes({ text32 });
         const handleText33 = text33 => setAttributes({ text33 });
         const handleText34 = text34 => setAttributes({ text34 });
-        const handleText35 = text35 => setAttributes({ text35 });
+
+        const handleBtnText1 = btnText1 => setAttributes({ btnText1 });
+        const handleBtnText2 = btnText2 => setAttributes({ btnText2 });
         const handleBtnText3 = btnText3 => setAttributes({ btnText3 });
-        const handleBtnLink3 = btnLink3 => setAttributes({ btnLink3 });
         const handleBtnText4 = btnText4 => setAttributes({ btnText4 });
-        const handleBtnLink4 = btnLink4 => setAttributes({ btnLink4 });
         const handleBtnText5 = btnText5 => setAttributes({ btnText5 });
-        const handleBtnLink5 = btnLink5 => setAttributes({ btnLink5 });
         const handleBtnText6 = btnText6 => setAttributes({ btnText6 });
+
+        const handleBtnLink1 = btnLink1 => setAttributes({ btnLink1 });
+        const handleBtnLink2 = btnLink2 => setAttributes({ btnLink2 });
+        const handleBtnLink3 = btnLink3 => setAttributes({ btnLink3 });
+        const handleBtnLink4 = btnLink4 => setAttributes({ btnLink4 });
+        const handleBtnLink5 = btnLink5 => setAttributes({ btnLink5 });
         const handleBtnLink6 = btnLink6 => setAttributes({ btnLink6 });
+        const handleBtnLink7 = btnLink7 => setAttributes({ btnLink7 });
+        const handleBtnLink8 = btnLink8 => setAttributes({ btnLink8 });
+        const handleBtnLink9 = btnLink9 => setAttributes({ btnLink9 });
+        const handleBtnLink10 = btnLink10 => setAttributes({ btnLink10 });
+
         const handleImg2 = obj => setAttributes({ img2: obj.sizes.full.url });
         const handleImg3 = obj => setAttributes({ img3: obj.sizes.full.url });
         const handleImg4 = obj => setAttributes({ img4: obj.sizes.full.url });
@@ -359,11 +379,6 @@ registerBlockType("cgb/business-phone-service-app", {
                         <strong>Title 3</strong>
                         <TextareaControl value={text10} onChange={handleText10} />
                     </div>
-                    <hr/>
-                    <div>
-                        <strong>Title 4</strong>
-                        <TextareaControl value={text35} onChange={handleText35} />
-                    </div>
                 </InspectorControls>
 
                 <section id="bps-hero" className="section">
@@ -371,21 +386,21 @@ registerBlockType("cgb/business-phone-service-app", {
                         <div className="row">
                             <div className="left-col">
                                 <h2 className="title--big">
-                                    <RichText value={heroT1} onchange={handleHeroT1} />
+                                    <RichText value={heroT1} onChange={handleHeroT1} />
                                 </h2>
                                 <p className="para para--subt">
-                                    <RichText value={heroT2} onchange={handleHeroT2} />
+                                    <RichText value={heroT2} onChange={handleHeroT2} />
                                 </p>
                                 <div className="cta">
                                     <span className="btn">
-                                        <RichText value={btnText1} onchange={handleBtnText1} />
+                                        <RichText value={btnText1} onChange={handleBtnText1} />
                                     </span>
                                     <URLInputButton
                                         url={btnLink1}
                                         onChange={handleBtnLink1}
                                     />
                                     <span className="btn btn--outline-dark">
-                                        <RichText value={btnText2} onchange={handleBtnText2} />
+                                        <RichText value={btnText2} onChange={handleBtnText2} />
                                     </span>
 
                                     <URLInputButton url={btnLink2} onChange={handleBtnLink2} />
@@ -409,28 +424,30 @@ registerBlockType("cgb/business-phone-service-app", {
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-2">
                     <div className="container">
                         <div className="row center">
                             <p className="para para--subt w-100">
-                                <RichText value={text1} onchange={handleText1} />
+                                <RichText value={text1} onChange={handleText1} />
                             </p>
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-hero-2" className="section">
                     <div className="container">
                         <div className="row">
                             <div className="left-col">
                                 <h2 className="title--big">
-                                    <RichText value={text2} onchange={handleText2} />
+                                    <RichText value={text2} onChange={handleText2} />
                                 </h2>
                                 <p className="para para--subt">
-                                    <RichText value={text3} onchange={handleText3} />
+                                    <RichText value={text3} onChange={handleText3} />
                                 </p>
                                 <div className="cta">
                                     <span className="btn btn--outline-dark">
-                                        <RichText value={btnText3} onchange={handleBtnText3} />
+                                        <RichText value={btnText3} onChange={handleBtnText3} />
                                     </span>
                                     <URLInputButton url={btnLink3} onChange={handleBtnLink3}/>
                                 </div>
@@ -451,36 +468,38 @@ registerBlockType("cgb/business-phone-service-app", {
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-3" className="section">
                     <div className="container">
                         <div className="row">
                             <p className="para para--subt w-100">
-                                <RichText value={text4} onchange={handleText4} />
+                                <RichText value={text4} onChange={handleText4} />
                             </p>
                             <h2 className="title--big w-100">
                                 <RichText.Content value={text5} />
                             </h2>
                             <p className="para w-100">
-                                <RichText value={text6} onchange={handleText6} />
+                                <RichText value={text6} onChange={handleText6} />
                             </p>
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-4" className="section">
                     <div className="container">
                         <div className="row">
                             <div className="left-col">
                                 <p className="para para--subt w-100">
-                                    <RichText value={text7} onchange={handleText7} />
+                                    <RichText value={text7} onChange={handleText7} />
                                 </p>
                                 <h2 className="title--big w-100">
                                     <RichText.Content value={text8} />
                                 </h2>
                                 <p className="para w-100">
-                                    <RichText value={text9} onchange={handleText9} />
+                                    <RichText value={text9} onChange={handleText9} />
                                 </p>
                                 <span className="btn">
-                                    <RichText value={btnText4} onchange={handleBtnText4} />
+                                    <RichText value={btnText4} onChange={handleBtnText4} />
                                 </span>
                                 <URLInputButton url={btnLink4} onChange={handleBtnLink4}/>
                             </div>
@@ -498,6 +517,7 @@ registerBlockType("cgb/business-phone-service-app", {
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-5" className="section">
                     <div className="container">
                         <div className="row">
@@ -507,7 +527,7 @@ registerBlockType("cgb/business-phone-service-app", {
                                 <MediaUpload
                                     onSelect={handleImg4}
                                     type="image"
-                                    value={img3}
+                                    value={img4}
                                     render={({ open }) => (
                                         <button onClick={open} className="btn-editor">Change Image!</button>
                                     )}
@@ -519,34 +539,36 @@ registerBlockType("cgb/business-phone-service-app", {
                             </div>
                             <div className="right-col">
                                 <p className="para para--subt">
-                                    <RichText value={text11} onchange={handleText11} />
+                                    <RichText value={text11} onChange={handleText11} />
                                 </p>
                                 <p className="para">
-                                    <RichText value={text12} onchange={handleText12} />
+                                    <RichText value={text12} onChange={handleText12} />
                                 </p>
                             </div>
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-app" className="section">
                     <div className="container">
                         <div className="row">
                             <p className="para para--subt">
-                                <RichText value={text13} onchange={handleText13} />
+                                <RichText value={text13} onChange={handleText13} />
                             </p>
                             <h2 className="title--big">
-                                <RichText value={text14} onchange={handleText14} />
+                                <RichText value={text14} onChange={handleText14} />
                             </h2>
                             <p className="para">
-                                <RichText value={text15} onchange={handleText15} />
+                                <RichText value={text15} onChange={handleText15} />
                             </p>
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-app-btns" className="section">
                     <div className="container">
                         <div className="row">
-                            <a className="download-btn" href="#">
+                            <span className="download-btn">
                                 <img src={img5} alt="download from playstore"/>
                                 <MediaUpload
                                     onSelect={handleImg5}
@@ -556,9 +578,10 @@ registerBlockType("cgb/business-phone-service-app", {
                                         <button onClick={open} className="btn-editor">Change Image!</button>
                                     )}
                                 />
-                                <p><RichText value={text16} onchange={handleText16} /></p>
-                            </a>
-                            <a className="download-btn" href="#">
+                                <p><RichText value={text16} onChange={handleText16} /></p>
+                                <p><URLInput value={btnLink7} onChange={handleBtnLink7} /></p>
+                            </span>
+                            <span className="download-btn">
                                 <img src={img6} alt="download from iphone appstore"/>
                                 <MediaUpload
                                     onSelect={handleImg6}
@@ -568,9 +591,10 @@ registerBlockType("cgb/business-phone-service-app", {
                                         <button onClick={open} className="btn-editor">Change Image!</button>
                                     )}
                                 />
-                                <p><RichText value={text17} onchange={handleText17} /></p>
-                            </a>
-                            <a className="download-btn" href="#">
+                                <p><RichText value={text17} onChange={handleText17} /></p>
+                                <p><URLInput value={btnLink8} onChange={handleBtnLink8} /></p>
+                            </span>
+                            <span className="download-btn">
                                 <img src={img7} alt="download for pc"/>
                                 <MediaUpload
                                     onSelect={handleImg7}
@@ -580,9 +604,10 @@ registerBlockType("cgb/business-phone-service-app", {
                                         <button onClick={open} className="btn-editor">Change Image!</button>
                                     )}
                                 />
-                                <p><RichText value={text18} onchange={handleText18} /></p>
-                            </a>
-                            <a className="download-btn" href="#">
+                                <p><RichText value={text18} onChange={handleText18} /></p>
+                                <p><URLInput value={btnLink9} onChange={handleBtnLink9} /></p>
+                            </span>
+                            <span className="download-btn">
                                 <img src={img8} alt="download for mac"/>
                                 <MediaUpload
                                     onSelect={handleImg8}
@@ -592,8 +617,9 @@ registerBlockType("cgb/business-phone-service-app", {
                                         <button onClick={open} className="btn-editor">Change Image!</button>
                                     )}
                                 />
-                                <p><RichText value={text19} onchange={handleText19} /></p>
-                            </a>
+                                <p><RichText value={text19} onChange={handleText19} /></p>
+                                <p><URLInput value={btnLink10} onChange={handleBtnLink10} /></p>
+                            </span>
                         </div>
                     </div>
                 </section>
@@ -601,16 +627,18 @@ registerBlockType("cgb/business-phone-service-app", {
                     <div className="container">
                         <div className="row top">
                             <p className="para w-100">
-                                <RichText value={text20} onchange={handleText20} />
+                                <RichText value={text20} onChange={handleText20} />
                             </p>
                             <span className="btn">
-                                <RichText value={btnText5} onchange={handleBtnText5} />
+                                <RichText value={btnText5} onChange={handleBtnText5} />
                             </span>
-                            <URLInputButton value={btnLink5} onChange={handleBtnLink5}/>
+                            <div className="w-100 center">
+                                <URLInput value={btnLink5} onChange={handleBtnLink5}/>
+                            </div>
                         </div>
                         <div className="row title">
                             <h2 className="title--big">
-                                <RichText value={text21} onchange={handleText21} />
+                                <RichText value={text21} onChange={handleText21} />
                             </h2>
                         </div>
                         <div className="row features">
@@ -626,10 +654,10 @@ registerBlockType("cgb/business-phone-service-app", {
                                     )}
                                 />
                                 <h2 className="title--sec">
-                                    <RichText value={text22} onchange={handleText22} />
+                                    <RichText value={text22} onChange={handleText22} />
                                 </h2>
                                 <p className="para">
-                                    <RichText value={text23} onchange={handleText23} />
+                                    <RichText value={text23} onChange={handleText23} />
                                 </p>
                             </div>
                             {/* item end */}
@@ -645,10 +673,10 @@ registerBlockType("cgb/business-phone-service-app", {
                                     )}
                                 />
                                 <h2 className="title--sec">
-                                    <RichText value={text24} onchange={handleText24} />
+                                    <RichText value={text24} onChange={handleText24} />
                                 </h2>
                                 <p className="para">
-                                    <RichText value={text25} onchange={handleText25} />
+                                    <RichText value={text25} onChange={handleText25} />
                                 </p>
                             </div>
                             {/* item end */}
@@ -664,10 +692,10 @@ registerBlockType("cgb/business-phone-service-app", {
                                     )}
                                 />
                                 <h2 className="title--sec">
-                                    <RichText value={text26} onchange={handleText26} />
+                                    <RichText value={text26} onChange={handleText26} />
                                 </h2>
                                 <p className="para">
-                                    <RichText value={text27} onchange={handleText27} />
+                                    <RichText value={text27} onChange={handleText27} />
                                 </p>
                             </div>
                             {/* item end */}
@@ -683,10 +711,10 @@ registerBlockType("cgb/business-phone-service-app", {
                                     )}
                                 />
                                 <h2 className="title--sec">
-                                    <RichText value={text28} onchange={handleText28} />
+                                    <RichText value={text28} onChange={handleText28} />
                                 </h2>
                                 <p className="para">
-                                    <RichText value={text29} onchange={handleText29} />
+                                    <RichText value={text29} onChange={handleText29} />
                                 </p>
                             </div>
                             {/* item end */}
@@ -702,10 +730,10 @@ registerBlockType("cgb/business-phone-service-app", {
                                     )}
                                 />
                                 <h2 className="title--sec">
-                                    <RichText value={text30} onchange={handleText30} />
+                                    <RichText value={text30} onChange={handleText30} />
                                 </h2>
                                 <p className="para">
-                                    <RichText value={text31} onchange={handleText31} />
+                                    <RichText value={text31} onChange={handleText31} />
                                 </p>
                             </div>
                             {/* item end */}
@@ -721,23 +749,23 @@ registerBlockType("cgb/business-phone-service-app", {
                                     )}
                                 />
                                 <h2 className="title--sec">
-                                    <RichText value={text32} onchange={handleText32} />
+                                    <RichText value={text32} onChange={handleText32} />
                                 </h2>
                                 <p className="para">
-                                    <RichText value={text33} onchange={handleText33} />
+                                    <RichText value={text33} onChange={handleText33} />
                                 </p>
                             </div>
                             {/* item end */}
                         </div>
                         <div className="row bottom">
                             <h2 className="title--sec">
-                                <RichText value={text34} onchange={handleText34} />
+                                <RichText value={text34} onChange={handleText34} />
                             </h2>
                             <div className="cta">
                                 <span className="btn">
-                                    <RichText value={btnText6} onchange={handleBtnText6} />
+                                    <RichText value={btnText6} onChange={handleBtnText6} />
                                 </span>
-                                <URLInputButton value={btnLink6} onchange={handleBtnLink6} />
+                                <URLInput value={btnLink6} onChange={handleBtnLink6} />
                             </div>
                         </div>
                     </div>
@@ -754,7 +782,8 @@ registerBlockType("cgb/business-phone-service-app", {
             text12, text13, text14, text15, img5, img6, img7, img8, text16, text17,
             text18, text19, text20, btnText5, btnLink5, text21, img9, img10, img11,
             img12, img13, img14, text22, text23, text24, text25, text26, text27, text28,
-            text29, text30, text31, text32, text33, text34, text35, btnText6, btnLink6
+            text29, text30, text31, text32, text33, text34, btnText6, btnLink6, btnLink7,
+            btnLink8, btnLink9, btnLink10
         } = props.attributes;
 
         return (
@@ -784,6 +813,7 @@ registerBlockType("cgb/business-phone-service-app", {
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-2">
                     <div className="container">
                         <div className="row center">
@@ -793,6 +823,7 @@ registerBlockType("cgb/business-phone-service-app", {
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-hero-2" className="section">
                     <div className="container">
                         <div className="row">
@@ -830,6 +861,7 @@ registerBlockType("cgb/business-phone-service-app", {
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-4" className="section">
                     <div className="container">
                         <div className="row">
@@ -853,6 +885,7 @@ registerBlockType("cgb/business-phone-service-app", {
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-5" className="section">
                     <div className="container">
                         <div className="row">
@@ -873,6 +906,7 @@ registerBlockType("cgb/business-phone-service-app", {
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-app" className="section">
                     <div className="container">
                         <div className="row">
@@ -888,28 +922,30 @@ registerBlockType("cgb/business-phone-service-app", {
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-app-btns" className="section">
                     <div className="container">
                         <div className="row">
-                            <a className="download-btn" href="#">
+                            <a className="download-btn" href={btnLink7}>
                                 <img src={img5} alt="download from playstore"/>
                                 <p><RichText.Content value={text16} /></p>
                             </a>
-                            <a className="download-btn" href="#">
+                            <a className="download-btn" href={btnLink8}>
                                 <img src={img6} alt="download from iphone appstore"/>
                                 <p><RichText.Content value={text17} /></p>
                             </a>
-                            <a className="download-btn" href="#">
+                            <a className="download-btn" href={btnLink9}>
                                 <img src={img7} alt="download for pc"/>
                                 <p><RichText.Content value={text18} /></p>
                             </a>
-                            <a className="download-btn" href="#">
+                            <a className="download-btn" href={btnLink10}>
                                 <img src={img8} alt="download for mac"/>
                                 <p><RichText.Content value={text19} /></p>
                             </a>
                         </div>
                     </div>
                 </section>
+
                 <section id="bps-6" className="section">
                     <div className="container">
                         <div className="row top">

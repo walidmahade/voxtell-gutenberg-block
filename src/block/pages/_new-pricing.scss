@@ -541,6 +541,18 @@ html {
 
 .tooltip-trigger{
   cursor: pointer;
+  background-color: $orange;
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    height: 9px;
+    width: 9px;
+  }
 }
 
 .tooltip-content {

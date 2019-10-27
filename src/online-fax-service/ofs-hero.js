@@ -53,9 +53,11 @@ registerBlockType("cgb/osf-hero", {
                         <p className="para para--subt">
                             <RichText value={text3} onChange={handleText3} />
                         </p>
-                        <span className="btn">
-                            <RichText value={btnText} onChange={handleBtnText} />
-                        </span>
+                        <div className="w-100 center">
+                            <span className="btn btn--dark">
+                                <RichText value={btnText} onChange={handleBtnText} />
+                            </span>
+                        </div>
                         <div>
                             <URLInput value={btnLink} onChange={handleBtnLink} />
                         </div>
@@ -82,9 +84,11 @@ registerBlockType("cgb/osf-hero", {
                         <p className="para para--subt">
                             <RichText.Content value={text3} />
                         </p>
-                        <a href={btnLink} className="btn">
-                            <RichText.Content value={btnText} />
-                        </a>
+                        <div className="w-100 center">
+                            <a href={btnLink} className="btn btn--dark">
+                                <RichText.Content value={btnText} />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>

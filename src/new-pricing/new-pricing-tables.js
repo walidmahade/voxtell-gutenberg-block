@@ -11,7 +11,7 @@ registerBlockType("cgb/new-pricing-tables", {
     attributes: {
         text1: {
             type: "string",
-            default: "Communication"
+            default: ""
         },
         text2: {
             type: "string",
@@ -169,7 +169,10 @@ registerBlockType("cgb/new-pricing-tables", {
         const { setAttributes } = props;
 
         const handleText1 = text1 => setAttributes({ text1 });
-        const handleText2 = clsName => setAttributes({ text2: " " + clsName });
+        const handleText2 = clsName => {
+            // let formatClsName = ;
+            setAttributes({ text2: clsName })
+        };
         // handle card 1
         const handlec1t1 = c1t1 => setAttributes({ c1t1 });
         const handlec1t2 = c1t2 => setAttributes({ c1t2 });
@@ -231,7 +234,8 @@ registerBlockType("cgb/new-pricing-tables", {
 
 
         return (
-            <div id={"tab-" + text1} className={`tab-content-item ${text2}`}>
+            <div id={"tab-" + text1} className={` tab-content-item  ${text2} `}>
+
                 <InspectorControls>
                     <div>
                         <h4>Serial No</h4>
@@ -473,7 +477,7 @@ registerBlockType("cgb/new-pricing-tables", {
         } = props.attributes;
 
         return (
-            <div id={"tab-" + text1} className={`tab-content-item ${text2}`}>
+            <div id={"tab-" + text1} className={` tab-content-item  ${text2} `}>
                 <div className="price-cards-wrap">
                     {/* price box item */}
                     <div className="card price-card">

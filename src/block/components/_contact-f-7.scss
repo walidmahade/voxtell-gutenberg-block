@@ -13,5 +13,13 @@
 }
 
 span.wpcf7-not-valid-tip {
-    color: #e14d43 !important;
+    color: #000 !important;
+  opacity: .5 !important;
+  font-size: 17px !important;
+  padding-top: 10px;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+  border: none !important;
+  opacity: .7 !important;
 }

@@ -130,10 +130,21 @@ import "./business-text-messaging/btm-5.js";
 import "./new-pricing/new-pricing-hero.js";
 import "./new-pricing/new-pricing-2.js";
 import "./new-pricing/new-pricing-tables.js";
+import "./new-pricing/new-pricing-3.js";
+import "./new-pricing/pricing-new-acc-section.js";
+import "./new-pricing/pricing-new-acc-faq-col.js";
+import "./new-pricing/pricing-new-acc-faq-item.js";
+import "./new-pricing/pricing-new-all-suite-4.js";
+import "./new-pricing/pricing-new-4-cols.js";
+import "./new-pricing/pricing-new-4-cols-item.js";
+import "./new-pricing/pricing-new-5.js";
+
+// business phone service
+import "./business-phone-service-app/business-phone-service-app.js";
+
 
 // not editable
-import "./not-editable/online-fax-service.js";
-import "./not-editable/business-phone-service-app.js";
-import "./not-editable/business-text-messaging.js";
-import "./not-editable/pbx-sip-trunk-new.js";
-import "./not-editable/pricing-new.js";
+// import "./not-editable/online-fax-service.js";
+// import "./not-editable/business-text-messaging.js";
+// import "./not-editable/pbx-sip-trunk-new.js";
+// import "./not-editable/pricing-new.js";

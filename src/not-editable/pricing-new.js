@@ -1383,31 +1383,10 @@ registerBlockType("cgb/pricing-new", {
                                         Communication Basic
                                     </h3>
                                     <div className="acc-mw">
-                                        <div
-                                            className="acc-mw__item"
-                                            data-acc-open-id={1}
-                                        >
+                                        <div className="acc-mw__item" data-acc-open-id={1}>
                                             <div className="acc-mw__head">
                                                 <span className="acc-mw__icon">
-                                                    <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width={7}
-                                                        height="10.818"
-                                                        viewBox="0 0 7 10.818"
-                                                    >
-                                                        <g
-                                                            id="Group_4167"
-                                                            data-name="Group 4167"
-                                                            transform="translate(0 10.818) rotate(-90)"
-                                                        >
-                                                            <path
-                                                                id="Path_14"
-                                                                data-name="Path 14"
-                                                                d="M5.409,7,0,1.909,1.909,0l3.5,3.5L8.909,0l1.909,1.909Z"
-                                                                fill="#E97514"
-                                                            />
-                                                        </g>
-                                                    </svg>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width={7} height="10.818" viewBox="0 0 7 10.818"><g id="Group_4167" data-name="Group 4167" transform="translate(0 10.818) rotate(-90)"><path id="Path_14" data-name="Path 14" d="M5.409,7,0,1.909,1.909,0l3.5,3.5L8.909,0l1.909,1.909Z" fill="#E97514"/></g></svg>
                                                 </span>
                                                 <div className="para acc-mw__title">
                                                     Included with All Plans
@@ -2248,21 +2227,7 @@ registerBlockType("cgb/pricing-new", {
                                 <div className="sf__item">
                                     <h4 className="para title">Call Pop</h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2281,21 +2246,7 @@ registerBlockType("cgb/pricing-new", {
                                 <div className="sf__item">
                                     <h4 className="para title">Call Pop</h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2321,21 +2272,7 @@ registerBlockType("cgb/pricing-new", {
                                         Customer Journey Mapping
                                     </h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2356,21 +2293,7 @@ registerBlockType("cgb/pricing-new", {
                                         Customer Experience Score
                                     </h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2391,21 +2314,7 @@ registerBlockType("cgb/pricing-new", {
                                         Customer Sentiment
                                     </h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2424,21 +2333,7 @@ registerBlockType("cgb/pricing-new", {
                                 <div className="sf__item">
                                     <h4 className="para title">Call Pop</h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2457,21 +2352,7 @@ registerBlockType("cgb/pricing-new", {
                                 <div className="sf__item">
                                     <h4 className="para title">Call Pop</h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2495,21 +2376,7 @@ registerBlockType("cgb/pricing-new", {
                                 <div className="sf__item">
                                     <h4 className="para title">Call Pop</h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2528,21 +2395,7 @@ registerBlockType("cgb/pricing-new", {
                                 <div className="sf__item">
                                     <h4 className="para title">Call Pop</h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2561,21 +2414,7 @@ registerBlockType("cgb/pricing-new", {
                                 <div className="sf__item">
                                     <h4 className="para title">Call Pop</h4>
                                     <div className="tooltip-trigger">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={12}
-                                            height={12}
-                                            viewBox="0 0 12 12"
-                                        >
-                                            <path
-                                                id="Path_5126"
-                                                data-name="Path 5126"
-                                                d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z"
-                                                transform="translate(-5 -5.405)"
-                                                fill="#E97514"
-                                                fillRule="evenodd"
-                                            />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12"><path id="Path_5126" data-name="Path 5126" d="M11,5.406a6,6,0,1,1-6,6A5.994,5.994,0,0,1,11,5.406ZM10.25,10.7h1.544v3.838H10.25Zm0-.882h1.544V8.273H10.25Z" transform="translate(-5 -5.405)" fill="#E97514" fillRule="evenodd"/></svg>
                                     </div>
                                     <div className="tooltip-content">
                                         <span>
@@ -2629,6 +2468,8 @@ registerBlockType("cgb/pricing-new", {
                         </div>
                     </div>
                 </section>
+
+
                 <section id="pricing-faq-header" className="section">
                     <div className="container">
                         <div className="row">
@@ -2638,6 +2479,8 @@ registerBlockType("cgb/pricing-new", {
                         </div>
                     </div>
                 </section>
+
+
                 {/* section careers faq */}
                 <section id="careers-faq">
                     <div className="container">
@@ -2649,100 +2492,10 @@ registerBlockType("cgb/pricing-new", {
                                     <h3 className="accdn__title">
                                         <span>Technology</span>
                                         <span className="icon icon--closed">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                <defs>
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        "
-                                                        }}
-                                                    />
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        y1="13.65"
-                                                        x2="47.09"
-                                                        y2="13.65"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />
-                                                    </linearGradient>
-                                                </defs>
-                                                <title>Asset 2</title>
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"
-                                                        />
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        " }}/><linearGradient id="linear-gradient" y1="13.65" x2="47.09" y2="13.65" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"/></g></g></svg>
                                         </span>
                                         <span className="icon icon--open">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                <defs>
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        "
-                                                        }}
-                                                    />
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        x1={-1220}
-                                                        y1="13.65"
-                                                        x2="-1172.91"
-                                                        y2="13.65"
-                                                        gradientTransform="translate(-1172.91 27.31) rotate(180)"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />
-                                                    </linearGradient>
-                                                </defs>
-                                                <title>Asset 3</title>
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"
-                                                        />
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        " }}/><linearGradient id="linear-gradient" x1={-1220} y1="13.65" x2="-1172.91" y2="13.65" gradientTransform="translate(-1172.91 27.31) rotate(180)" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"/></g></g></svg>
                                         </span>
                                     </h3>
                                     <div className="accdn__body">
@@ -2765,105 +2518,10 @@ registerBlockType("cgb/pricing-new", {
                                     <h3 className="accdn__title">
                                         <span>Sales</span>
                                         <span className="icon icon--closed">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                <defs>
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        "
-                                                        }}
-                                                    />
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        y1="13.65"
-                                                        x2="47.09"
-                                                        y2="13.65"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />
-                                                    </linearGradient>
-                                                </defs>
-                                                <title>Asset 2</title>
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"
-                                                        />
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        " }}/><linearGradient id="linear-gradient" y1="13.65" x2="47.09" y2="13.65" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"/></g></g></svg>
                                         </span>
                                         <span className="icon icon--open">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                {" "}
-                                                <defs>
-                                                    {" "}
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                " .cls-1 { fill: url(#linear-gradient); } "
-                                                        }}
-                                                    />{" "}
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        x1={-1220}
-                                                        y1="13.65"
-                                                        x2="-1172.91"
-                                                        y2="13.65"
-                                                        gradientTransform="translate(-1172.91 27.31) rotate(180)"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        {" "}
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />{" "}
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />{" "}
-                                                    </linearGradient>{" "}
-                                                </defs>{" "}
-                                                <title>Asset 3</title>{" "}
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    {" "}
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        {" "}
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"
-                                                        />{" "}
-                                                    </g>{" "}
-                                                </g>{" "}
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: " .cls-1 { fill: url(#linear-gradient); } " }}/><linearGradient id="linear-gradient" x1={-1220} y1="13.65" x2="-1172.91" y2="13.65" gradientTransform="translate(-1172.91 27.31) rotate(180)" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"/></g></g></svg>
                                         </span>
                                     </h3>
                                     <div className="accdn__body center">
@@ -2892,100 +2550,10 @@ registerBlockType("cgb/pricing-new", {
                                     <h3 className="accdn__title">
                                         <span>Marketing &amp; graphics</span>
                                         <span className="icon icon--closed">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                <defs>
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        "
-                                                        }}
-                                                    />
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        y1="13.65"
-                                                        x2="47.09"
-                                                        y2="13.65"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />
-                                                    </linearGradient>
-                                                </defs>
-                                                <title>Asset 2</title>
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"
-                                                        />
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        " }}/><linearGradient id="linear-gradient" y1="13.65" x2="47.09" y2="13.65" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"/></g></g></svg>
                                         </span>
                                         <span className="icon icon--open">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                <defs>
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        "
-                                                        }}
-                                                    />
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        x1={-1220}
-                                                        y1="13.65"
-                                                        x2="-1172.91"
-                                                        y2="13.65"
-                                                        gradientTransform="translate(-1172.91 27.31) rotate(180)"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />
-                                                    </linearGradient>
-                                                </defs>
-                                                <title>Asset 3</title>
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"
-                                                        />
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        " }}/><linearGradient id="linear-gradient" x1={-1220} y1="13.65" x2="-1172.91" y2="13.65" gradientTransform="translate(-1172.91 27.31) rotate(180)" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"/></g></g></svg>
                                         </span>
                                     </h3>
                                     <div className="accdn__body center">
@@ -3009,100 +2577,10 @@ registerBlockType("cgb/pricing-new", {
                                     <h3 className="accdn__title">
                                         <span>Finance</span>
                                         <span className="icon icon--closed">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                <defs>
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        "
-                                                        }}
-                                                    />
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        y1="13.65"
-                                                        x2="47.09"
-                                                        y2="13.65"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />
-                                                    </linearGradient>
-                                                </defs>
-                                                <title>Asset 2</title>
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"
-                                                        />
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        " }}/><linearGradient id="linear-gradient" y1="13.65" x2="47.09" y2="13.65" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"/></g></g></svg>
                                         </span>
                                         <span className="icon icon--open">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                <defs>
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        "
-                                                        }}
-                                                    />
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        x1={-1220}
-                                                        y1="13.65"
-                                                        x2="-1172.91"
-                                                        y2="13.65"
-                                                        gradientTransform="translate(-1172.91 27.31) rotate(180)"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />
-                                                    </linearGradient>
-                                                </defs>
-                                                <title>Asset 3</title>
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"
-                                                        />
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        " }}/><linearGradient id="linear-gradient" x1={-1220} y1="13.65" x2="-1172.91" y2="13.65" gradientTransform="translate(-1172.91 27.31) rotate(180)" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"/></g></g></svg>
                                         </span>
                                     </h3>
                                     <div className="accdn__body center">
@@ -3126,6 +2604,8 @@ registerBlockType("cgb/pricing-new", {
                     </div>
                 </section>
                 {/* section careers faq end */}
+
+
                 <section id="pricing-faq-header-2" className="section--last">
                     <div className="container">
                         <div className="row">
@@ -3140,6 +2620,7 @@ registerBlockType("cgb/pricing-new", {
                         </div>
                     </div>
                 </section>
+
             </div>
         );
     },
@@ -5843,53 +5324,7 @@ registerBlockType("cgb/pricing-new", {
                                             </svg>
                                         </span>
                                         <span className="icon icon--open">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                <defs>
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        "
-                                                        }}
-                                                    />
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        x1={-1220}
-                                                        y1="13.65"
-                                                        x2="-1172.91"
-                                                        y2="13.65"
-                                                        gradientTransform="translate(-1172.91 27.31) rotate(180)"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />
-                                                    </linearGradient>
-                                                </defs>
-                                                <title>Asset 3</title>
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"
-                                                        />
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        " }}/><linearGradient id="linear-gradient" x1={-1220} y1="13.65" x2="-1172.91" y2="13.65" gradientTransform="translate(-1172.91 27.31) rotate(180)" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"/></g></g></svg>
                                         </span>
                                     </h3>
                                     <div className="accdn__body">
@@ -5912,105 +5347,10 @@ registerBlockType("cgb/pricing-new", {
                                     <h3 className="accdn__title">
                                         <span>Sales</span>
                                         <span className="icon icon--closed">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                <defs>
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        "
-                                                        }}
-                                                    />
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        y1="13.65"
-                                                        x2="47.09"
-                                                        y2="13.65"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />
-                                                    </linearGradient>
-                                                </defs>
-                                                <title>Asset 2</title>
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"
-                                                        />
-                                                    </g>
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: "\n                                            .cls-1 {\n                                                fill: url(#linear-gradient);\n                                            }\n                                        " }}/><linearGradient id="linear-gradient" y1="13.65" x2="47.09" y2="13.65" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M47.09,3.07,43.94,0,23.55,21,3.16,0,0,3.07,23.55,27.31Z"/></g></g></svg>
                                         </span>
                                         <span className="icon icon--open">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                viewBox="0 0 47.09 27.31"
-                                            >
-                                                {" "}
-                                                <defs>
-                                                    {" "}
-                                                    <style
-                                                        dangerouslySetInnerHTML={{
-                                                            __html:
-                                                                " .cls-1 { fill: url(#linear-gradient); } "
-                                                        }}
-                                                    />{" "}
-                                                    <linearGradient
-                                                        id="linear-gradient"
-                                                        x1={-1220}
-                                                        y1="13.65"
-                                                        x2="-1172.91"
-                                                        y2="13.65"
-                                                        gradientTransform="translate(-1172.91 27.31) rotate(180)"
-                                                        gradientUnits="userSpaceOnUse"
-                                                    >
-                                                        {" "}
-                                                        <stop
-                                                            offset={0}
-                                                            stopColor="#fbb615"
-                                                        />{" "}
-                                                        <stop
-                                                            offset={1}
-                                                            stopColor="#cb2d2c"
-                                                        />{" "}
-                                                    </linearGradient>{" "}
-                                                </defs>{" "}
-                                                <title>Asset 3</title>{" "}
-                                                <g
-                                                    id="Layer_2"
-                                                    data-name="Layer 2"
-                                                >
-                                                    {" "}
-                                                    <g
-                                                        id="Layer_1-2"
-                                                        data-name="Layer 1"
-                                                    >
-                                                        {" "}
-                                                        <path
-                                                            className="cls-1"
-                                                            d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"
-                                                        />{" "}
-                                                    </g>{" "}
-                                                </g>{" "}
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.09 27.31"><defs><style dangerouslySetInnerHTML={{ __html: " .cls-1 { fill: url(#linear-gradient); } " }}/><linearGradient id="linear-gradient" x1={-1220} y1="13.65" x2="-1172.91" y2="13.65" gradientTransform="translate(-1172.91 27.31) rotate(180)" gradientUnits="userSpaceOnUse"><stop offset={0} stopColor="#fbb615"/><stop offset={1} stopColor="#cb2d2c"/></linearGradient></defs><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path className="cls-1" d="M0,24.24l3.15,3.07,20.39-21,20.39,21,3.16-3.07L23.54,0Z"/></g></g></svg>
                                         </span>
                                     </h3>
                                     <div className="accdn__body center">
